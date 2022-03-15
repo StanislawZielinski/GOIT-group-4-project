@@ -1,0 +1,29 @@
+.main-button {
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    box-sizing: border-box;
+    width: 161.45px;
+    height: 44px;
+    border-radius: 22px;
+    cursor: pointer;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(16px/21px);
+    color: #D41342;
+    & svg {
+        margin-left: 8px;
+        stroke: #D41342;
+    }
+    &:hover, &:focus, &:active {
+        background: #D41342;
+        color: #fff;
+        &:hover svg, &:focus svg, &:active svg {
+            stroke: #fff;
+        }
+    }
+}
