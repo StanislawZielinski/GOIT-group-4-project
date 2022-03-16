@@ -3,9 +3,9 @@
  * Główny plik dla stylów.
  * Wszystkie partials podłączamy tutaj.
  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 .example {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
- 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   background-color: #fff;
   color: #424242;
@@ -29,7 +29,6 @@
   background-size: cover;
   background-position: center;
 }
-
 
 html,
 body,
@@ -301,9 +300,443 @@ a {
   background: #fff5f6;
   background-position: center top;
   margin-top: 84px;
+}
 
 .products {
   padding: 0 20px;
+  text-align: center;
+}
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .products {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .products__title {
+    font-family: "Titan One";
+    color: #ffa5ba;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .products__header {
+    font-family: "Titan One";
+    color: #d41443;
+    font-size: 34px;
+    padding-top: 15px;
+    padding-bottom: 31px;
+    letter-spacing: 4%;
+    line-height: 38.93px;
+  }
+  .products__list {
+    list-style: none;
+  }
+  .products__list-item {
+    height: 485px;
+    border: 1px hidden;
+    border-radius: 24px;
+    margin-bottom: 17px;
+  }
+  .products__list-item-name {
+    font-family: "Titan One";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 22px;
+    letter-spacing: 4%;
+  }
+  .products__list-item-description {
+    display: block;
+    font-family: "DM Sans";
+    color: #ffffff;
+    font-weight: 700 bold;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 4%;
+  }
+  .products__list-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 41px;
+  }
+  .ice-cream {
+    background-color: #ffb8ca;
+  }
+  .ice-coffee {
+    background-color: #f0d1a5;
+  }
+  .milk-shake {
+    background-color: #c2e297;
+  }
+  .ice-cream-image,
+  .ice-coffee-image,
+  .milk-shake-image {
+    top: 0px;
+    left: 0px;
+    height: 249px;
+    width: 252px;
+  }
+  .white-dot {
+    width: 6px;
+    height: 6px;
+    margin: 30px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .products {
+    padding: 0 34px;
+    text-align: center;
+  }
+  .products__title {
+    font-family: "Titan One";
+    color: #ffa5ba;
+    font-weight: 400;
+    font-size: 26px;
+  }
+  .products__header {
+    font-family: "Titan One";
+    color: #d41443;
+    font-size: 48px;
+    padding-top: 15px;
+    padding-bottom: 31px;
+    letter-spacing: 4%;
+    line-height: 38.93px;
+  }
+  .products__list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .products__list-item {
+    height: 485px;
+    border: 1px hidden;
+    border-radius: 24px;
+  }
+  .products__list-item:not(:last-child) {
+    margin-right: 11px;
+  }
+  .products__list-item-name {
+    font-family: "Titan One";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    letter-spacing: 4%;
+  }
+  .products__list-item-description {
+    display: block;
+    font-family: "DM Sans";
+    color: #ffffff;
+    font-weight: 700 bold;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 11px;
+    padding-right: 11px;
+    letter-spacing: 4%;
+  }
+  .products__list-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 41px;
+  }
+  .ice-cream {
+    background-color: #ffb8ca;
+  }
+  .ice-coffee {
+    background-color: #f0d1a5;
+  }
+  .milk-shake {
+    background-color: #c2e297;
+  }
+  .ice-cream-image,
+  .ice-coffee-image,
+  .milk-shake-image {
+    bottom: 0px;
+    left: 0px;
+    height: 249px;
+    width: 252px;
+  }
+  .white-dot {
+    width: 6px;
+    height: 6px;
+    margin: 30px 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products {
+    padding: 0 116px;
+    text-align: center;
+  }
+  .products__title {
+    font-family: "Titan One";
+    color: #ffa5ba;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .products__header {
+    font-family: "Titan One";
+    color: #d41443;
+    font-size: 58px;
+    padding-top: 15px;
+    padding-bottom: 31px;
+    letter-spacing: 4%;
+    line-height: 38.93px;
+  }
+  .products__list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .products__list-item {
+    height: 525px;
+    border: 1px hidden;
+    border-radius: 24px;
+  }
+  .products__list-item:not(:last-child) {
+    margin-right: 29px;
+  }
+  .products__list-item-name {
+    font-family: "Titan One";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    letter-spacing: 4%;
+  }
+  .products__list-item-description {
+    display: block;
+    font-family: "DM Sans";
+    color: #ffffff;
+    font-weight: 700 bold;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 44px;
+    padding-right: 44px;
+    letter-spacing: 4%;
+  }
+  .products__list-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 41px;
+  }
+  .ice-cream {
+    background-color: #ffb8ca;
+  }
+  .ice-coffee {
+    background-color: #f0d1a5;
+  }
+  .milk-shake {
+    background-color: #c2e297;
+  }
+  .ice-cream-image,
+  .ice-coffee-image,
+  .milk-shake-image {
+    top: 0px;
+    left: 0px;
+    height: 249px;
+    width: 252px;
+  }
+  .white-dot {
+    width: 6px;
+    height: 6px;
+    margin: 30px 0px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .section-contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5.3%, rgba(0, 0, 0, 0)), color-stop(5.3%, #fff5f6));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 5.3%, #fff5f6 5.3%);
+  }
+  .section-contacts__heading {
+    display: none;
+  }
+  .section-contacts__card {
+    margin: 0 50px;
+    padding: 0 20px;
+    max-width: 100%;
+    height: 427px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 8px 30px 0px #d414431a;
+            box-shadow: 0px 8px 30px 0px #d414431a;
+    border-radius: 24px;
+    margin-bottom: 20px;
+  }
+  .branch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .branch__category--cafe {
+    border-radius: 4px;
+    height: 16px;
+    background: #f0d1a5;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .branch__category--cafe p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    color: #ffffff;
+  }
+  .branch__category--foodtrack {
+    border-radius: 4px;
+    height: 16px;
+    background: #c2e297;
+    width: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .branch__category--foodtrack p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    color: #ffffff;
+  }
+  .branch__city {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  .branch__description {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: calc(12px / 18px);
+    color: #907e82;
+  }
+  .branch__description:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    min-width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 25px auto 25px auto;
+  }
+  .branch__opening-days-and-hours {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .branch__opening-days-and-hours:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    min-width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 25px auto 25px auto;
+  }
+  .branch__opening-days-and-hours li {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+  }
+  .branch__contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .branch__contact li {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #907e82;
+  }
+  .opening__days {
+    color: #000000;
+  }
+  .opening__hours {
+    color: #ffa5ba;
+  }
+}
+
+.main-button {
+  margin: 0 auto 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 161.45px;
+  height: 44px;
+  border-radius: 22px;
+  cursor: pointer;
+  background: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(16px/21px);
+  color: #D41342;
+}
+
+.main-button svg {
+  margin-left: 8px;
+  stroke: #D41342;
+}
+
+.main-button:hover, .main-button:focus, .main-button:active {
+  background: #D41342;
+  color: #fff;
+}
+
+.main-button:hover:hover svg, .main-button:hover:focus svg, .main-button:hover:active svg, .main-button:focus:hover svg, .main-button:focus:focus svg, .main-button:focus:active svg, .main-button:active:hover svg, .main-button:active:focus svg, .main-button:active:active svg {
+  stroke: #fff;
 }
 /*# sourceMappingURL=main.css.map */
