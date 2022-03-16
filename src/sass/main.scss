@@ -6,7 +6,22 @@
 // Style dla pliku z przykładem HTML fragmentu
 @import './utils/variables';
 @import './example';
+
+@import './base/common';
+@import './base/container';
+@import './base/colors';
+@import './base/fonts';
+@import './base/fond-size';
+
+@import './components/shop';
+@import './components/footer-button';
+@import './components/shop-line';
+
+@import './layouts/footer';
+
 @import './components/products';
 @import './components/contacts';
 @import './components/buttons';
+
 @import './components/advantages'
+
