@@ -302,11 +302,6 @@ a {
   margin-top: 84px;
 }
 
-.products {
-  padding: 0 20px;
-  text-align: center;
-}
-
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .products {
     padding: 0 20px;
@@ -348,7 +343,7 @@ a {
     display: block;
     font-family: "DM Sans";
     color: #ffffff;
-    font-weight: 700 bold;
+    font-weight: 700;
     text-align: center;
     font-size: 14px;
     padding-left: 40px;
@@ -430,7 +425,7 @@ a {
     display: block;
     font-family: "DM Sans";
     color: #ffffff;
-    font-weight: 700 bold;
+    font-weight: 700;
     text-align: center;
     font-size: 14px;
     padding-left: 11px;
@@ -512,7 +507,7 @@ a {
     display: block;
     font-family: "DM Sans";
     color: #ffffff;
-    font-weight: 700 bold;
+    font-weight: 700;
     text-align: center;
     font-size: 14px;
     padding-left: 44px;
@@ -697,6 +692,42 @@ a {
   }
   .opening__hours {
     color: #ffa5ba;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .reviews {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .reviewer-picture {
+    display: block;
+    width: 85px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fafafa;
+    height: 308px;
+  }
+  .review__text {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .red-dot {
+    padding-right: 10px;
   }
 }
 
