@@ -1,0 +1,26 @@
+.hero {
+  z-index: -2;
+  background-color: rgba(255, 184, 202, 1);
+  position: absolute;
+
+  &__text {
+    font-family: $primary-font-family;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 37px;
+    line-height: 1.154;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+    &-accent {
+      color: $primary-font-color;
+      font-size: 48px;
+    }
+  }
+}
+.hero .container {
+  min-height: 446px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

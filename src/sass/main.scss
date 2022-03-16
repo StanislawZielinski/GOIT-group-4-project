@@ -5,9 +5,12 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 @import './utils/variables';
-@import './example';
 @import './components/products';
 @import './components/container';
-@import './components/header';
+@import './base/common';
+@import './layout/header';
+@import './layout/hero';
 @import './components/icon';
 @import './components/hamburger';
+@import './components/logo';
+@import './components/eclipse-hero';
