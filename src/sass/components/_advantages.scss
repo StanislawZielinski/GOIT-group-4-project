@@ -4,7 +4,7 @@
   &__list {
     display: grid;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
     gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
   }
@@ -32,6 +32,7 @@
 
   &__img {
     height: 50px;
+    margin-top: 10px;
   }
   background: #fff5f6;
 }
@@ -40,6 +41,7 @@
   .advantages {
     &__list {
       grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+      justify-content: start
     }
     &__item {
       left: 20px;
@@ -51,10 +53,13 @@
       height: 36px;
       left: 20px;
     }
+    &__img {
+      left: 20px;
+    }
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .advantages {
     &__list {
       grid-template-columns: repeat(auto-fit, minmax(305px, auto));
@@ -71,14 +76,15 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .advantages {
     padding-bottom: 0;
     &__list {
       grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     }
     &__item {
-      max-width: 270px;
+        width: 330px;
+        height: 222px;
     }
     &__description {
       width: 330px;
