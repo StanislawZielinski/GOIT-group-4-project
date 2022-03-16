@@ -22,7 +22,7 @@
     &:hover, &:focus, &:active {
         background: #D41342;
         color: #fff;
-        &:hover svg, &:focus svg, &:active svg {
+        & svg, & svg, & svg {
             stroke: #fff;
         }
     }
