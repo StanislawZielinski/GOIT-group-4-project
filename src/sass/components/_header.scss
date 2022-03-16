@@ -1,5 +1,9 @@
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header {
+  padding-top: 6px;
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
