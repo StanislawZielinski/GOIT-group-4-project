@@ -5,3 +5,11 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 @import './example';
+@import './base/common';
+@import './base/_container.cscc';
+@import './base/colors';
+@import './base/fonts';
+
+@import './components/shop';
+
+@import './layouts/footer';
