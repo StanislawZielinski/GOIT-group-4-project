@@ -1,6 +1,9 @@
 .footer {
+  display: flex;
+  justify-content: center;
   width: 320px;
   height: 1912px;
-  background: blue;
+  background: $puderpink;
   background-position: center top;
+  margin-top: 84px;
 }
