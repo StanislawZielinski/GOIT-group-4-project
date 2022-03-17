@@ -5,6 +5,22 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 @import './utils/variables';
+
+@import './components/products';
+@import './components/container';
+@import './base/common';
+@import './layout/header';
+@import './layout/hero';
+@import './components/icon';
+@import './components/hamburger';
+@import './components/logo';
+@import './components/ellipse__hero';
+@import './components/ice-cream';
+@import './components/box-button';
+@import './components/hero-picture';
+@import './components/buttons';
+@import './components/buy-button';
+
 @import './example';
 
 @import './base/common';

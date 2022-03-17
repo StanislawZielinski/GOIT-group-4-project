@@ -1,3 +1,143 @@
+
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+.products {
+  padding: 0 20px;
+}
+
+.container {
+  padding: 0 20px;
+  min-width: 320px;
+  max-width: 767px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #ffb8ca;
+  padding-top: 6px;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero {
+  min-height: 446px;
+  position: absolute;
+  background-color: #ffb8ca;
+  background-image: url("../images/bg/Ellipse.svg");
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+}
+
+.hero__text {
+  font-family: "Titan One";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 37px;
+  line-height: 1.154;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.hero__text-accent {
+  color: #d41443;
+  font-size: 48px;
+}
+
+.hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-Burger {
+  width: 20px;
+  height: 12px;
+}
+
+.icon-Ellipse-3 {
+  width: 300px;
+  height: 250px;
+}
+
+.hamburger {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.logo {
+  width: 199px;
+  height: 50px;
+}
+
+.eclipse-hero {
+  position: relative;
+  top: 100px;
+}
+
+.ice-cream {
+  width: 171px;
+  height: 410px;
+}
+/*# sourceMappingURL=main.css.map */
+
 @charset "UTF-8";
 /*
  * Główny plik dla stylów.
@@ -1865,4 +2005,5 @@ a {
 }
 
 /*# sourceMappingURL=main.css.map */
+
 
