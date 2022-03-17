@@ -5,6 +5,7 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 @import './utils/variables';
+
 @import './components/products';
 @import './components/container';
 @import './base/common';
@@ -19,3 +20,24 @@
 @import './components/hero-picture';
 @import './components/buttons';
 @import './components/buy-button';
+
+@import './example';
+
+@import './base/common';
+@import './base/container';
+@import './base/colors';
+@import './base/fonts';
+@import './base/fond-size';
+
+@import './components/shop';
+@import './components/footer-button';
+@import './components/shop-line';
+
+@import './layouts/footer';
+
+@import './components/products';
+@import './components/contacts';
+@import './components/reviews';
+@import './components/buttons';
+
+@import './components/advantages';

@@ -1,0 +1,43 @@
+.shop__button {
+  width: 161px;
+  height: 44px;
+  border: 0;
+  border-radius: 22px;
+  margin: 10px 0;
+
+  &-style1 {
+    @extend .shop__button;
+    background: $red;
+  }
+
+  &-style2 {
+    @extend .shop__button;
+    background: $white;
+  }
+
+  &-text {
+    font-family: $font1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $size2;
+    line-height: 21px;
+    color: $white;
+  }
+
+  &-text2 {
+    color: $red;
+  }
+
+  &-vector {
+    margin-left: 8px;
+    width: 3.61px;
+    height: 8px;
+    border: 2px solid #ffffff;
+    fill: $white;
+  }
+
+  &-vector2 {
+    margin-left: 8px;
+    fill: $red;
+  }
+}
