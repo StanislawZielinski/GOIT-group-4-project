@@ -4,7 +4,9 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
+@import './utils/variables';
 @import './example';
+
 @import './base/common';
 @import './base/container';
 @import './base/colors';
@@ -16,3 +18,10 @@
 @import './components/shop-line';
 
 @import './layouts/footer';
+
+@import './components/products';
+@import './components/contacts';
+@import './components/reviews';
+@import './components/buttons';
+
+@import './components/advantages';
