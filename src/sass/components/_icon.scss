@@ -2,7 +2,22 @@
   width: 20px;
   height: 12px;
 }
-.icon-Ellipse-3 {
-  width: 300px;
-  height: 250px;
+.icon-Ellipse {
+  width: 346px;
+  height: 344px;
+}
+// TABLET********
+@media screen and (min-width: 768px) {
+  .icon-Ellipse {
+    width: 324px;
+    height: 322px;
+  }
+}
+
+// DESKTOP********
+@media screen and (min-width: 1200px) {
+  .icon-Ellipse {
+    width: 538px;
+    height: 538px;
+  }
 }
