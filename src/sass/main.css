@@ -119,6 +119,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 280px;
   display: -webkit-box;
@@ -126,9 +130,10 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .shop {
@@ -146,6 +151,10 @@ a {
   border-radius: 24px;
   padding: 43px 20px;
   margin-bottom: 20px;
+}
+
+.shop:last-child {
+  margin-bottom: 24px;
 }
 
 .shop:first-child {
@@ -191,26 +200,6 @@ a {
           flex-direction: column;
 }
 
-.shop__text2 {
-  font-family: "Titan One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #ffa5ba;
-}
-
-.shop__text3 {
-  font-family: "Titan One";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #d41342;
-}
-
 .shop__text, .shop__text-1, .shop__text-2 {
   font-family: "DM Sans";
   font-style: normal;
@@ -239,6 +228,7 @@ a {
   height: 44px;
   border: 0;
   border-radius: 22px;
+  margin: 10px 0;
 }
 
 .shop__button-style1 {
@@ -275,7 +265,7 @@ a {
   fill: #d41342;
 }
 
-.shop__line {
+.shop__line, .footer__line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,6 +282,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -299,5 +293,131 @@ a {
   background: #fff5f6;
   background-position: center top;
   margin-top: 84px;
+}
+
+.footer__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 24px 0;
+}
+
+.footer__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 79px 0 43px 0;
+}
+
+.footer__text1 {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffa5ba;
+  margin-bottom: 17px;
+}
+
+.footer__text2 {
+  width: 220px;
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 21px;
+  color: #d41342;
+  margin-bottom: 14px;
+}
+
+.footer__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 46px;
+}
+
+.footer__socials-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ffa5ba;
+  margin-left: 28.24px;
+  cursor: pointer;
+}
+
+.socials__icons {
+  width: 18.82px;
+  height: 18.82px;
+  fill: #ffffff;
+}
+
+.footer__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 13px;
+}
+
+.footer__phone-number {
+  margin-left: 4px;
+  color: #d41342;
+}
+
+.footer__line {
+  width: 100%;
+  margin-top: 43px;
+  margin-bottom: 22px;
+}
+
+.footer__rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+.footer__rights-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+  color: #907e82;
 }
 /*# sourceMappingURL=main.css.map */
