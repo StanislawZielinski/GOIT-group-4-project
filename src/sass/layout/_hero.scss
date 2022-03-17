@@ -13,6 +13,7 @@
     line-height: 1.154;
     letter-spacing: 0.04em;
     text-align: left;
+    margin-bottom: 19px;
 
     &-accent {
       color: $primary-font-color;
@@ -28,3 +29,8 @@
   min-height: 446px;
 }
 // TABLET*********
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 399px;
+  }
+}
