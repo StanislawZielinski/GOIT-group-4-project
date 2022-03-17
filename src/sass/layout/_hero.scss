@@ -1,6 +1,5 @@
 .hero {
-  // z-index: -2;
-  min-height: 446px;
+  z-index: -2;
   position: absolute;
   background-color: $pink-bg-color;
   background-image: url('../images/bg/Ellipse.svg');
@@ -21,8 +20,9 @@
     }
   }
 }
-.hero-text {
+.hero-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 446px;
 }

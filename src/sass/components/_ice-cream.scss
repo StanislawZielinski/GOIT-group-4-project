@@ -1,4 +1,24 @@
 .ice-cream {
   width: 171px;
   height: 410px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-30%, -50%);
+  z-index: -1;
+  overflow: hidden;
+}
+// TABLET*********
+@media screen and (min-width: 768px) {
+  .ice-cream {
+    width: 143px;
+    height: 336px;
+  }
+}
+// DESKTOP*********
+@media screen and (min-width: 1200px) {
+  .ice-cream {
+    width: 236px;
+    height: 557px;
+  }
 }
