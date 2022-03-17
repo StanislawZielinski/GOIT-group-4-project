@@ -4,10 +4,10 @@
  * Wszystkie partials podłączamy tutaj.
 
  */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 .example {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
- 'Open Sans', 'Helvetica Neue', sans-serif;
+    'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   background-color: #fff;
   color: #424242;
@@ -27,7 +27,7 @@
 
 .example .background {
   height: 240px;
-  background-image: url("../images/demo.jpg");
+  background-image: url('../images/demo.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -128,10 +128,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .shop {
@@ -141,11 +141,11 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background: #ffffff;
   -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   padding: 43px 20px;
   margin-bottom: 20px;
@@ -156,21 +156,22 @@ a {
   z-index: 999;
 }
 
-.shop__title, .shop__title2 {
+.shop__title,
+.shop__title2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 80px;
   height: 16px;
   background: #f0d1a5;
   border-radius: 4px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   color: #ffffff;
   font-weight: 500;
   font-size: 12px;
@@ -190,12 +191,12 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .shop__text2 {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -205,7 +206,7 @@ a {
 }
 
 .shop__text3 {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -214,8 +215,10 @@ a {
   color: #d41342;
 }
 
-.shop__text, .shop__text-1, .shop__text-2 {
-  font-family: "DM Sans";
+.shop__text,
+.shop__text-1,
+.shop__text-2 {
+  font-family: 'DM Sans';
   font-style: normal;
   font-size: 12px;
   line-height: 186%;
@@ -237,7 +240,9 @@ a {
   margin: 0;
 }
 
-.shop__button, .shop__button-style1, .shop__button-style2 {
+.shop__button,
+.shop__button-style1,
+.shop__button-style2 {
   width: 161px;
   height: 44px;
   border: 0;
@@ -253,7 +258,7 @@ a {
 }
 
 .shop__button-text {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -283,8 +288,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 210px;
   height: 0px;
   border: 1px solid #e1e1e1;
@@ -296,8 +301,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 320px;
   background: #fff5f6;
   background-position: center top;
@@ -310,13 +315,13 @@ a {
     text-align: center;
   }
   .products__title {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #ffa5ba;
     font-weight: 400;
     font-size: 18px;
   }
   .products__header {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #d41443;
     font-size: 34px;
     padding-top: 15px;
@@ -334,7 +339,7 @@ a {
     margin-bottom: 17px;
   }
   .products__list-item-name {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
@@ -343,7 +348,7 @@ a {
   }
   .products__list-item-description {
     display: block;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -387,13 +392,13 @@ a {
     text-align: center;
   }
   .products__title {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #ffa5ba;
     font-weight: 400;
     font-size: 26px;
   }
   .products__header {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #d41443;
     font-size: 48px;
     padding-top: 15px;
@@ -416,7 +421,7 @@ a {
     margin-right: 11px;
   }
   .products__list-item-name {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
@@ -425,7 +430,7 @@ a {
   }
   .products__list-item-description {
     display: block;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -469,13 +474,13 @@ a {
     text-align: center;
   }
   .products__title {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #ffa5ba;
     font-weight: 400;
     font-size: 30px;
   }
   .products__header {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #d41443;
     font-size: 58px;
     padding-top: 15px;
@@ -498,7 +503,7 @@ a {
     margin-right: 29px;
   }
   .products__list-item-name {
-    font-family: "Titan One";
+    font-family: 'Titan One';
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
@@ -507,7 +512,7 @@ a {
   }
   .products__list-item-description {
     display: block;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     color: #ffffff;
     font-weight: 700;
     text-align: center;
@@ -552,11 +557,17 @@ a {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 0;
     background-color: #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5.3%, rgba(0, 0, 0, 0)), color-stop(5.3%, #fff5f6));
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(5.3%, rgba(0, 0, 0, 0)),
+      color-stop(5.3%, #fff5f6)
+    );
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 5.3%, #fff5f6 5.3%);
   }
   .section-contacts__heading {
@@ -569,7 +580,7 @@ a {
     height: 427px;
     background: #ffffff;
     -webkit-box-shadow: 0px 8px 30px 0px #d414431a;
-            box-shadow: 0px 8px 30px 0px #d414431a;
+    box-shadow: 0px 8px 30px 0px #d414431a;
     border-radius: 24px;
     margin-bottom: 20px;
   }
@@ -578,12 +589,12 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .branch__category--cafe {
     border-radius: 4px;
@@ -594,14 +605,14 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .branch__category--cafe p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -617,14 +628,14 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .branch__category--foodtrack p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -632,7 +643,7 @@ a {
     color: #ffffff;
   }
   .branch__city {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -641,7 +652,7 @@ a {
     color: #000000;
   }
   .branch__description {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -649,7 +660,7 @@ a {
     color: #907e82;
   }
   .branch__description:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -662,7 +673,7 @@ a {
     margin: 0;
   }
   .branch__opening-days-and-hours:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -670,7 +681,7 @@ a {
     margin: 25px auto 25px auto;
   }
   .branch__opening-days-and-hours li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -682,7 +693,7 @@ a {
     margin: 0;
   }
   .branch__contact li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -717,16 +728,16 @@ a {
     height: 308px;
   }
   .review__text {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-weight: 500;
     font-style: normal;
     font-size: 12px;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .red-dot {
     padding-right: 10px;
@@ -739,47 +750,55 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-style: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 161.45px;
   height: 44px;
   border-radius: 22px;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(16px/21px);
-  color: #D41342;
+  line-height: calc(16px / 21px);
+  color: #d41342;
 }
 
 .main-button svg {
   margin-left: 8px;
-  stroke: #D41342;
+  stroke: #d41342;
 }
 
-.main-button:hover, .main-button:focus, .main-button:active {
-  background: #D41342;
+.main-button:hover,
+.main-button:focus,
+.main-button:active {
+  background: #d41342;
   color: #fff;
 }
 
-.main-button:hover:hover svg, .main-button:hover:focus svg, .main-button:hover:active svg, .main-button:focus:hover svg, .main-button:focus:focus svg, .main-button:focus:active svg, .main-button:active:hover svg, .main-button:active:focus svg, .main-button:active:active svg {
+.main-button:hover:hover svg,
+.main-button:hover:focus svg,
+.main-button:hover:active svg,
+.main-button:focus:hover svg,
+.main-button:focus:focus svg,
+.main-button:focus:active svg,
+.main-button:active:hover svg,
+.main-button:active:focus svg,
+.main-button:active:active svg {
   stroke: #fff;
 }
 
-
- */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Titan+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Titan+One&display=swap');
 .example {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
- 'Open Sans', 'Helvetica Neue', sans-serif;
+    'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   background-color: #fff;
   color: #424242;
@@ -799,7 +818,7 @@ a {
 
 .example .background {
   height: 240px;
-  background-image: url("../images/demo.jpg");
+  background-image: url('../images/demo.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -815,11 +834,17 @@ a {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 0;
     background-color: #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5.3%, rgba(0, 0, 0, 0)), color-stop(5.3%, #fff5f6));
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(5.3%, rgba(0, 0, 0, 0)),
+      color-stop(5.3%, #fff5f6)
+    );
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 5.3%, #fff5f6 5.3%);
   }
   .section-contacts__heading {
@@ -832,7 +857,7 @@ a {
     height: 427px;
     background: #ffffff;
     -webkit-box-shadow: 0px 8px 30px 0px #d414431a;
-            box-shadow: 0px 8px 30px 0px #d414431a;
+    box-shadow: 0px 8px 30px 0px #d414431a;
     border-radius: 24px;
     margin-bottom: 20px;
   }
@@ -841,12 +866,12 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .branch__category--cafe {
     border-radius: 4px;
@@ -857,14 +882,14 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .branch__category--cafe p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -880,14 +905,14 @@ a {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .branch__category--foodtrack p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -895,7 +920,7 @@ a {
     color: #ffffff;
   }
   .branch__city {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -904,7 +929,7 @@ a {
     color: #000000;
   }
   .branch__description {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -912,7 +937,7 @@ a {
     color: #907e82;
   }
   .branch__description:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -925,7 +950,7 @@ a {
     margin: 0;
   }
   .branch__opening-days-and-hours:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -933,7 +958,7 @@ a {
     margin: 25px auto 25px auto;
   }
   .branch__opening-days-and-hours li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -945,7 +970,7 @@ a {
     margin: 0;
   }
   .branch__contact li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -966,37 +991,47 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border-style: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 161.45px;
   height: 44px;
   border-radius: 22px;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(16px/21px);
-  color: #D41342;
+  line-height: calc(16px / 21px);
+  color: #d41342;
 }
 
 .main-button svg {
   margin-left: 8px;
-  stroke: #D41342;
+  stroke: #d41342;
 }
 
-.main-button:hover, .main-button:focus, .main-button:active {
-  background: #D41342;
+.main-button:hover,
+.main-button:focus,
+.main-button:active {
+  background: #d41342;
   color: #fff;
 }
 
-.main-button:hover:hover svg, .main-button:hover:focus svg, .main-button:hover:active svg, .main-button:focus:hover svg, .main-button:focus:focus svg, .main-button:focus:active svg, .main-button:active:hover svg, .main-button:active:focus svg, .main-button:active:active svg {
+.main-button:hover:hover svg,
+.main-button:hover:focus svg,
+.main-button:hover:active svg,
+.main-button:focus:hover svg,
+.main-button:focus:focus svg,
+.main-button:focus:active svg,
+.main-button:active:hover svg,
+.main-button:active:focus svg,
+.main-button:active:active svg {
   stroke: #fff;
 }
 
@@ -1008,11 +1043,11 @@ a {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 30px;
-  -ms-grid-columns: (minmax(200px, 450px))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
+  -ms-grid-columns: (minmax(200px, 450px)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
 }
 
 .advantages__item {
@@ -1046,11 +1081,11 @@ a {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .advantages__list {
-    -ms-grid-columns: (minmax(260px, auto))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    -ms-grid-columns: (minmax(260px, auto)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
   }
   .advantages__item {
     left: 20px;
@@ -1069,8 +1104,8 @@ a {
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .advantages__list {
-    -ms-grid-columns: (minmax(305px, auto))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(305px, auto));
+    -ms-grid-columns: (minmax(305px, auto)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(305px, auto));
   }
   .advantages__item {
     max-width: 354px;
@@ -1088,8 +1123,8 @@ a {
     padding-bottom: 0;
   }
   .advantages__list {
-    -ms-grid-columns: (minmax(260px, auto))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    -ms-grid-columns: (minmax(260px, auto)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
   }
   .advantages__item {
     width: 330px;
@@ -1101,10 +1136,9 @@ a {
     left: 475px;
   }
 }
- */
-.example {
+*/ .example {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
- 'Open Sans', 'Helvetica Neue', sans-serif;
+    'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   background-color: #fff;
   color: #424242;
@@ -1124,11 +1158,10 @@ a {
 
 .example .background {
   height: 240px;
-  background-image: url("../images/demo.jpg");
+  background-image: url('../images/demo.jpg');
   background-size: cover;
   background-position: center;
 }
-
 
 html,
 body,
@@ -1226,10 +1259,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .shop {
@@ -1239,11 +1272,11 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background: #ffffff;
   -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   padding: 43px 20px;
   margin-bottom: 20px;
@@ -1254,21 +1287,22 @@ a {
   z-index: 999;
 }
 
-.shop__title, .shop__title2 {
+.shop__title,
+.shop__title2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 80px;
   height: 16px;
   background: #f0d1a5;
   border-radius: 4px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   color: #ffffff;
   font-weight: 500;
   font-size: 12px;
@@ -1288,12 +1322,12 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .shop__text2 {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1303,7 +1337,7 @@ a {
 }
 
 .shop__text3 {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -1312,8 +1346,10 @@ a {
   color: #d41342;
 }
 
-.shop__text, .shop__text-1, .shop__text-2 {
-  font-family: "DM Sans";
+.shop__text,
+.shop__text-1,
+.shop__text-2 {
+  font-family: 'DM Sans';
   font-style: normal;
   font-size: 12px;
   line-height: 186%;
@@ -1335,7 +1371,9 @@ a {
   margin: 0;
 }
 
-.shop__button, .shop__button-style1, .shop__button-style2 {
+.shop__button,
+.shop__button-style1,
+.shop__button-style2 {
   width: 161px;
   height: 44px;
   border: 0;
@@ -1351,7 +1389,7 @@ a {
 }
 
 .shop__button-text {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1381,8 +1419,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 210px;
   height: 0px;
   border: 1px solid #e1e1e1;
@@ -1394,17 +1432,15 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 320px;
   background: #fff5f6;
   background-position: center top;
   margin-top: 84px;
-
+}
 .products {
   padding: 0 20px;
-
 }
-
 
 /*# sourceMappingURL=main.css.map */
