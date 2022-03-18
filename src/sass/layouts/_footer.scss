@@ -1,9 +1,10 @@
 
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+  
   .footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
     background: $puderpink;
     background-position: center top;
     margin-top: 84px;
@@ -103,4 +104,4 @@
       color: #907e82;
     }
   }
-
+  }

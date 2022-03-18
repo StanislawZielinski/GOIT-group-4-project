@@ -227,10 +227,10 @@ button {
   color: #d41342;
 }
 
-.button__icons {
+.footer__button-img {
   width: 4.28px;
   height: 8px;
-  fill: #d41342;
+  margin-left: 8px;
 }
 
 .shop__line, .footer__line {
