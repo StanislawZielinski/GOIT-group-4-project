@@ -1,12 +1,13 @@
-.container {
+.st-container {
   padding: 0 20px;
   min-width: 320px;
   max-width: 767px;
 }
 // TABLET*********
 @media screen and (min-width: 768px) {
-  .container {
+  .st-container {
     min-width: 768px;
     max-width: 1199px;
+    padding: 0 34px;
   }
 }

@@ -1,4 +1,4 @@
-.button {
+.st-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,21 +31,18 @@
   }
 }
 
-.main-button {
-  margin: 0 auto 10px;
+.st-small-button {
   display: flex;
   align-items: center;
   justify-content: center;
   border-style: none;
   box-sizing: border-box;
   width: 161.45px;
-  height: 44px;
-  border-radius: 22px;
+  height: 24px;
+  border-radius: 20px;
   cursor: pointer;
   background: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
+  font-size: 8px;
   line-height: calc(16px / 21px);
   color: #d41342;
   & svg {

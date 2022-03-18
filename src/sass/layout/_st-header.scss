@@ -1,10 +1,17 @@
-.header {
+.st-header {
   background-color: rgba(255, 184, 202, 1);
   padding-top: 6px;
 
-  & .container {
+  & .st-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+// TABLET*********
+@media screen and (min-width: 768px) {
+  .st-header {
+    padding-top: 37px;
   }
 }

@@ -1,11 +1,11 @@
-.hamburger {
+.st-hamburger {
   border: 0;
   background-color: transparent;
   cursor: pointer;
 }
 
 @media screen and (min-width: 1200px) {
-  .hamburger {
+  .st-hamburger {
     display: none;
   }
 }
