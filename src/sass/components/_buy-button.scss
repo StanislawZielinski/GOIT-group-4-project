@@ -1,0 +1,8 @@
+.buy-button {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .buy-button {
+    display: block;
+  }
+}
