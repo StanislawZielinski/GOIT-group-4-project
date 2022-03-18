@@ -4,11 +4,13 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
+
+
 @import './utils/variables';
 
-@import './components/products';
+
 @import './components/container';
-@import './base/common';
+
 @import './layout/header';
 @import './layout/hero';
 @import './components/icon';
@@ -18,14 +20,15 @@
 @import './components/ice-cream';
 @import './components/box-button';
 @import './components/hero-picture';
-@import './components/buttons';
+
 @import './components/buy-button';
+
 
 @import './base/common';
 @import './base/container';
 @import './base/colors';
 @import './base/fonts';
-@import './base/fond-size';
+@import './base/font-size';
 
 @import './components/shop';
 @import './components/footer-button';
