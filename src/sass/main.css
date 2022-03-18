@@ -3,32 +3,6 @@
  * Główny plik dla stylów.
  * Wszystkie partials podłączamy tutaj.
  */
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #424242;
-  max-width: 960px;
-  padding: 16px;
-}
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: #009688;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
-
-.example .background {
-  height: 240px;
-  background-image: url("../images/demo.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 html,
 body,
 div,
@@ -246,22 +220,16 @@ button {
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
+  padding-left: 8px;
 }
 
 .shop__button-text2 {
   color: #d41342;
 }
 
-.shop__button-vector {
-  margin-left: 8px;
-  width: 3.61px;
+.button__icons {
+  width: 4.28px;
   height: 8px;
-  border: 2px solid #ffffff;
-  fill: #ffffff;
-}
-
-.shop__button-vector2 {
-  margin-left: 8px;
   fill: #d41342;
 }
 
@@ -287,7 +255,6 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 320px;
   background: #fff5f6;
   background-position: center top;
   margin-top: 84px;
