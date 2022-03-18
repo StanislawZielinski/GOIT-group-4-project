@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .section-contacts {
@@ -6,11 +6,7 @@
     flex-direction: column;
     padding: 0;
     background-color: #fff;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 5.3%,
-      #fff5f6 5.3%
-    );
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 5.3%, #fff5f6 5.3%);
     &__heading {
       display: none;
     }
@@ -40,7 +36,7 @@
         align-items: center;
         justify-content: center;
         & p {
-          font-family: "DM Sans";
+          font-family: 'DM Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
@@ -57,7 +53,7 @@
         align-items: center;
         justify-content: center;
         & p {
-          font-family: "DM Sans";
+          font-family: 'DM Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
@@ -67,7 +63,7 @@
       }
     }
     &__city {
-      font-family: "DM Sans";
+      font-family: 'DM Sans';
       font-style: normal;
       font-weight: 500;
       font-size: 12px;
@@ -76,14 +72,14 @@
       color: #000000;
     }
     &__description {
-      font-family: "DM Sans";
+      font-family: 'DM Sans';
       font-style: normal;
       font-weight: 500;
       font-size: 12px;
       line-height: calc(12px / 18px);
       color: #907e82;
       &:after {
-        content: "";
+        content: '';
         display: inline-block;
         height: 1px;
         min-width: 100%;
@@ -96,7 +92,7 @@
       padding: 0;
       margin: 0;
       &:after {
-        content: "";
+        content: '';
         display: inline-block;
         height: 1px;
         min-width: 100%;
@@ -104,7 +100,7 @@
         margin: 25px auto 25px auto;
       }
       & li {
-        font-family: "DM Sans";
+        font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -116,7 +112,7 @@
       padding: 0;
       margin: 0;
       & li {
-        font-family: "DM Sans";
+        font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -143,11 +139,7 @@
     justify-content: center;
     padding: 0;
     background-color: #fff;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 8.6%,
-      #fff5f6 8.6%
-    );
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 8.6%, #fff5f6 8.6%);
     &__heading {
       display: none;
     }
@@ -176,7 +168,7 @@
         justify-content: center;
         margin: 0 31px 30px 31px;
         & p {
-          font-family: "DM Sans";
+          font-family: 'DM Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
@@ -194,7 +186,7 @@
         justify-content: center;
         margin: 0 31px 30px 31px;
         & p {
-          font-family: "DM Sans";
+          font-family: 'DM Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
@@ -204,7 +196,7 @@
       }
     }
     &__city {
-      font-family: "DM Sans";
+      font-family: 'DM Sans';
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
@@ -214,7 +206,7 @@
       margin: 0 31px 14px 31px;
     }
     &__description {
-      font-family: "DM Sans";
+      font-family: 'DM Sans';
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
@@ -222,7 +214,7 @@
       color: #907e82;
       margin: 0 31px;
       &:after {
-        content: "";
+        content: '';
         display: inline-block;
         height: 1px;
         min-width: 100%;
@@ -235,7 +227,7 @@
       padding: 0;
       margin: 0 31px;
       &:after {
-        content: "";
+        content: '';
         display: inline-block;
         height: 1px;
         min-width: 100%;
@@ -243,7 +235,7 @@
         margin: 14px auto 30px auto;
       }
       & li {
-        font-family: "DM Sans";
+        font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -255,7 +247,7 @@
       padding: 0;
       margin: 0 31px;
       & li {
-        font-family: "DM Sans";
+        font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -294,7 +286,7 @@
     justify-content: center;
     padding: 0;
     background-color: #fff;
-    background-image: url("/images/contacts-bg.png"),
+    background-image: url('/images/contacts/contacts-bg.png'),
       linear-gradient(to bottom, rgba(0, 0, 0, 0) 14.5%, #fff5f6 14.5%);
     background-position: center;
     background-repeat: no-repeat;
@@ -327,7 +319,7 @@
         justify-content: center;
         margin: 0 43px 30px 43px;
         & p {
-          font-family: "DM Sans";
+          font-family: 'DM Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
@@ -346,7 +338,7 @@
         justify-content: center;
         margin: 0 43px 30px 43px;
         & p {
-          font-family: "DM Sans";
+          font-family: 'DM Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
@@ -357,7 +349,7 @@
       }
     }
     &__city {
-      font-family: "DM Sans";
+      font-family: 'DM Sans';
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -367,7 +359,7 @@
       margin: 0 43px 14px 43px;
     }
     &__description {
-      font-family: "DM Sans";
+      font-family: 'DM Sans';
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -375,7 +367,7 @@
       color: #907e82;
       margin: 0 43px;
       &:after {
-        content: "";
+        content: '';
         display: inline-block;
         height: 1px;
         min-width: 100%;
@@ -388,7 +380,7 @@
       padding: 0;
       margin: 0 43px;
       &:after {
-        content: "";
+        content: '';
         display: inline-block;
         height: 1px;
         min-width: 100%;
@@ -396,7 +388,7 @@
         margin: 14px auto 30px auto;
       }
       & li {
-        font-family: "DM Sans";
+        font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -408,7 +400,7 @@
       padding: 0;
       margin: 0 43px;
       & li {
-        font-family: "DM Sans";
+        font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
