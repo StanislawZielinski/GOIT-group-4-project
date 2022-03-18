@@ -130,10 +130,9 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .shop {
@@ -149,7 +148,7 @@ button {
   -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
           box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
-  padding: 43px 20px;
+  padding: 43px 0;
   margin-bottom: 20px;
 }
 
@@ -182,7 +181,7 @@ button {
   font-size: 12px;
   line-height: 186%;
   letter-spacing: 0.04em;
-  margin-bottom: 25px;
+  margin: 0 0 25px 20px;
 }
 
 .shop__title2 {
@@ -208,10 +207,7 @@ button {
   font-weight: 800;
   letter-spacing: 0.04em;
   color: #000000;
-}
-
-.shop__text-margin {
-  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .shop__text-1 {
@@ -220,7 +216,11 @@ button {
 
 .shop__text-2 {
   color: #ffa5ba;
-  margin: 0;
+  margin: 0 0 0 20px;
+}
+
+.shop__text-margin {
+  margin-bottom: 10px;
 }
 
 .shop__button, .shop__button-style1, .shop__button-style2 {
@@ -272,20 +272,18 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 210px;
+  width: 179px;
   height: 0px;
   border: 1px solid #e1e1e1;
-  margin: 25px 0;
+  margin: 25px 0 25px 20px;
 }
 
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -378,6 +376,7 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -394,8 +393,7 @@ button {
 
 .footer__line {
   width: 100%;
-  margin-top: 43px;
-  margin-bottom: 22px;
+  margin: 43px 0 22px 0;
 }
 
 .footer__rights {

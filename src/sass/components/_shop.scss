@@ -5,7 +5,7 @@
   background: $white;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
-  padding: 43px 20px;
+  padding: 43px 0;
   margin-bottom: 20px;
 
   &:last-child {
@@ -31,7 +31,7 @@
     font-size: $size1;
     line-height: 186%;
     letter-spacing: 0.04em;
-    margin-bottom: 25px;
+    margin: 0 0 25px 20px;
   }
 
   &__title2 {
@@ -54,10 +54,7 @@
   font-weight: 800;
   letter-spacing: 0.04em;
   color: $black;
-
-  &-margin {
-    margin-bottom: 10px;
-  }
+  margin-left: 20px;
 
   &-1 {
     @extend .shop__text;
@@ -67,6 +64,10 @@
   &-2 {
     @extend .shop__text;
     color: $puderpink2;
-    margin: 0;
+    margin: 0 0 0 20px;
+  }
+
+  &-margin {
+    margin-bottom: 10px;
   }
 }

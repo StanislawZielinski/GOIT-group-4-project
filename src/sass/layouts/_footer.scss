@@ -1,8 +1,7 @@
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-
   width: 320px;
   background: $puderpink;
   background-position: center top;
@@ -70,6 +69,7 @@
 
 .footer__phone {
   display: flex;
+  width: 100%;
   justify-content: flex-end;
   font-family: $font1;
   font-weight: 700;
@@ -85,8 +85,7 @@
 .footer__line {
   @extend .shop__line;
   width: 100%;
-  margin-top: 43px;
-  margin-bottom: 22px;
+  margin: 43px 0 22px 0;
 }
 
 .footer__rights {
