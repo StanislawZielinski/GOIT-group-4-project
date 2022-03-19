@@ -377,10 +377,6 @@ button {
   cursor: pointer;
 }
 
-.st-header {
-  padding-top: 6px;
-}
-
 .st-header .st-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -393,18 +389,15 @@ button {
           align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-  .st-header {
-    padding-top: 37px;
-  }
-}
-
 .st-hero {
+  padding-top: 6px;
   width: 100vw;
+  height: 502px;
   background-color: #ffb8ca;
 }
 
 .st-hero__text {
+  z-index: 1;
   width: 218px;
   font-family: "Titan One";
   text-transform: uppercase;
@@ -421,10 +414,16 @@ button {
   font-size: 48px;
 }
 
+.st-hero__box {
+  margin-top: 137px;
+  position: relative;
+  z-index: 1;
+}
+
 @media screen and (min-width: 768px) {
   .st-hero {
-    min-height: 399px;
-    padding-top: 12px;
+    padding-top: 37px;
+    height: 399px;
     padding-bottom: 28px;
   }
   .st-hero__text {
@@ -448,7 +447,7 @@ button {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    min-height: 269px;
+    min-height: 267px;
   }
 }
 
@@ -494,33 +493,6 @@ button {
   height: 50px;
 }
 
-.st-ellipse__hero {
-  position: absolute;
-  top: -5%;
-  left: 0%;
-}
-
-.st-ice-cream {
-  width: 171px;
-  height: 410px;
-  -webkit-transform: translate(50%);
-          transform: translate(50%);
-}
-
-@media screen and (min-width: 768px) {
-  .st-ice-cream {
-    width: 143px;
-    height: 336px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .st-ice-cream {
-    width: 236px;
-    height: 557px;
-  }
-}
-
 .st-box-button {
   z-index: 2;
   display: -webkit-box;
@@ -536,28 +508,79 @@ button {
 }
 
 .st-hero__picture {
-  z-index: 0;
   position: absolute;
   top: 92px;
   left: 27%;
 }
 
-.st-hero__picture-so-tasty {
+.st-hero__picture-so-tasty,
+.st-hero__picture-16,
+.st-hero__picture-23 {
   display: none;
+}
+
+.st-ice-cream {
+  width: 171px;
+  height: 410px;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+}
+
+.st-ellipse__hero {
+  position: absolute;
+  top: -5%;
+  left: 0%;
 }
 
 @media screen and (min-width: 768px) {
   .st-hero__picture {
-    top: 83px;
+    top: 63px;
     left: 40%;
     z-index: 0;
   }
+  .st-ice-cream {
+    width: 143px;
+    height: 336px;
+  }
+  .st-hero__picture-so-tasty {
+    display: block;
+    width: 168px;
+    height: 133px;
+    position: absolute;
+    top: 266px;
+    left: 75%;
+  }
+  .st-hero__picture-16 {
+    display: block;
+    width: 43px;
+    height: 44px;
+    position: absolute;
+    top: 94px;
+    left: 93%;
+  }
+  .st-hero__picture-23 {
+    display: block;
+    width: 51px;
+    height: 43px;
+    position: absolute;
+    top: 151px;
+    left: 92%;
+  }
+  .st-hero__milk {
+    width: 124px;
+    height: 126px;
+  }
 }
 
-.st-hero__picture-so-tasty {
-  display: block;
-  width: 168px;
-  height: 133px;
+@media screen and (min-width: 1200px) {
+  .st-ice-cream {
+    width: 236px;
+    height: 557px;
+  }
+  .st-hero__milk {
+    width: 188px;
+    height: 191px;
+  }
 }
 
 .st-button {
@@ -677,20 +700,6 @@ button {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .st-hero__milk {
-    width: 124px;
-    height: 126px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .st-hero__milk {
-    width: 188px;
-    height: 191px;
-  }
-}
-
 .st-hero__text--descritpion {
   color: #fff;
   font-family: var("DM Sans");
@@ -703,22 +712,13 @@ button {
   width: 18px;
   height: 18px;
   cursor: pointer;
+  margin-top: 7px;
 }
 
 @media screen and (min-width: 1200px) {
   .st-hero__arrow-rignt {
     width: 26px;
     height: 26px;
-  }
-}
-
-.st-so-tasty {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .st-so-tasty {
-    display: block;
   }
 }
 
