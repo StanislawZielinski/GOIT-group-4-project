@@ -173,10 +173,23 @@ button {
     margin-left: 28.24px;
     cursor: pointer;
   }
-  .socials__icons {
+  .footer__socials-item:hover {
+    color: #d41342;
+  }
+  .socials__icon {
+    fill: #ffffff;
+  }
+  .socials__icon-1 {
     width: 18.82px;
     height: 18.82px;
-    fill: #ffffff;
+  }
+  .socials__icon-2 {
+    width: 19.2px;
+    height: 14.93px;
+  }
+  .socials__icon-3 {
+    width: 8.8px;
+    height: 19.2px;
   }
 }
 
@@ -237,10 +250,23 @@ button {
     margin-left: 28.24px;
     cursor: pointer;
   }
-  .socials__icons {
+  .footer__socials-item:hover {
+    background-color: #d41342;
+  }
+  .socials__icon {
+    fill: #ffffff;
+  }
+  .socials__icon-1 {
     width: 20px;
     height: 20px;
-    fill: #ffffff;
+  }
+  .socials__icon-2 {
+    width: 20.4px;
+    height: 15.87px;
+  }
+  .socials__icon-3 {
+    width: 9.35px;
+    height: 20.4px;
   }
   .footer__phone {
     display: -webkit-box;
@@ -299,10 +325,23 @@ button {
     margin-left: 28.24px;
     cursor: pointer;
   }
-  .socials__icons {
-    width: 18.82px;
-    height: 18.82px;
+  .footer__socials-item:hover {
+    background-color: #d41342;
+  }
+  .socials__icon {
     fill: #ffffff;
+  }
+  .socials__icon-1 {
+    width: 20px;
+    height: 20px;
+  }
+  .socials__icon-2 {
+    width: 20.4px;
+    height: 15.87px;
+  }
+  .socials__icon-3 {
+    width: 9.35px;
+    height: 20.4px;
   }
   .footer__phone {
     display: -webkit-box;

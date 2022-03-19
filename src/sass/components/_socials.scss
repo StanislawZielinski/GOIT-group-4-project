@@ -22,14 +22,32 @@
       margin-left: 28.24px;
       cursor: pointer;
     }
+
+    &-item:hover {
+      color: $red;
+    }
   }
 
-  .socials__icons {
-    width: 18.82px;
-    height: 18.82px;
+  .socials__icon {
     fill: $white;
+
+    &-1 {
+      width: 18.82px;
+      height: 18.82px;
+    }
+
+    &-2 {
+      width: 19.2px;
+      height: 14.93px;
+    }
+
+    &-3 {
+      width: 8.8px;
+      height: 19.2px;
+    }
   }
 }
+
 .footer__phone {
   display: flex;
   width: 50%;
@@ -69,12 +87,28 @@
       margin-left: 28.24px;
       cursor: pointer;
     }
+    &-item:hover {
+      background-color: $red;
+    }
   }
 
-  .socials__icons {
-    width: 20px;
-    height: 20px;
+  .socials__icon {
     fill: $white;
+
+    &-1 {
+      width: 20px;
+      height: 20px;
+    }
+
+    &-2 {
+      width: 20.4px;
+      height: 15.87px;
+    }
+
+    &-3 {
+      width: 9.35px;
+      height: 20.4px;
+    }
   }
 
   .footer__phone {
@@ -117,12 +151,28 @@
       margin-left: 28.24px;
       cursor: pointer;
     }
+    &-item:hover {
+      background-color: $red;
+    }
   }
 
-  .socials__icons {
-    width: 18.82px;
-    height: 18.82px;
+  .socials__icon {
     fill: $white;
+
+    &-1 {
+      width: 20px;
+      height: 20px;
+    }
+
+    &-2 {
+      width: 20.4px;
+      height: 15.87px;
+    }
+
+    &-3 {
+      width: 9.35px;
+      height: 20.4px;
+    }
   }
 
   .footer__phone {
