@@ -1,13 +1,11 @@
 .st-hero {
-  z-index: -2;
-  height: 446px;
-  position: absolute;
+  min-height: 502px;
   width: 100vw;
   background-color: $pink-bg-color;
 
   &__text {
     width: 218px;
-    z-index: 1;
+    z-index: 4;
     font-family: $primary-font-family;
     text-transform: uppercase;
     color: $white;
@@ -24,17 +22,16 @@
   }
 }
 
-.st-hero-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 446px;
+.st-hero__box {
+  margin-top: 137px;
+  z-index: 3;
 }
 // TABLET*********
 @media screen and (min-width: 768px) {
   .st-hero {
-    height: 399px;
+    min-height: 399px;
     padding-top: 12px;
+    padding-bottom: 28px;
 
     &__text {
       width: 162px;
@@ -48,8 +45,11 @@
     }
   }
 
-  .st-hero-box {
+  .st-hero__box {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    height: 312px;
+    height: 273px;
   }
 }
