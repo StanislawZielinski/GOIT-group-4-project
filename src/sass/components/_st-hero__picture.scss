@@ -1,4 +1,4 @@
-.st-hero-picture {
+.st-hero__picture {
   position: absolute;
   bottom: 0%;
   left: 15%;
@@ -6,7 +6,7 @@
 
 // TABLET*********
 @media screen and (min-width: 768px) {
-  .st-hero-picture {
+  .st-hero__picture {
     bottom: 0%;
     left: 45%;
   }

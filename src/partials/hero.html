@@ -8,8 +8,19 @@
         <button class="st-small-button" type="button">Products</button>
         <button class="st-small-button" type="button">How it's made?</button>
       </div>
+      <div class="st-hero__description">
+        <source
+          media="(min-width: 1200px)"
+          srcset="./images/hero/milk-desktop.png 1x, ./images/hero/milk-desktop@2x.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/hero/milk-tablet.png 1x, ./images/hero/milk-tablet@2x.png 2x"
+        />
+        <img class="st-hero__milk" src="/images/hero/milk-tablet.png" alt="milk" />
+      </div>
     </div>
-    <picture class="st-hero-picture">
+    <picture class="st-hero__picture">
       <svg class="st-icon-Ellipse st-ellipse__hero">
         <use href="./images/sprite.svg#icon-Ellipse"></use>
       </svg>
