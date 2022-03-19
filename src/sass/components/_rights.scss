@@ -1,0 +1,16 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+    &-text {
+      font-family: $font1;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $size6;
+      line-height: 152%;
+      color: #907e82;
+    }
+  }
+}
