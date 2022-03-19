@@ -1,19 +1,18 @@
-.ice-cream {
-  z-index: 2;
+.st-ice-cream {
   width: 171px;
   height: 410px;
   transform: translate(50%);
 }
 // TABLET*********
 @media screen and (min-width: 768px) {
-  .ice-cream {
+  .st-ice-cream {
     width: 143px;
     height: 336px;
   }
 }
 // DESKTOP*********
 @media screen and (min-width: 1200px) {
-  .ice-cream {
+  .st-ice-cream {
     width: 236px;
     height: 557px;
   }

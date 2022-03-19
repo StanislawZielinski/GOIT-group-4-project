@@ -1,14 +1,61 @@
-<section class="hero">
-  <div class="container">
-    <div class="hero-box">
-      <h1 class="hero__text">ice cream made with <span class="hero__text-accent">passion</span></h1>
-      <div class="box-button">
-        <button class="button" type="button">Products</button>
-        <button class="button" type="button">How it's made?</button>
+<!-- <script src="./mobile-menu.js"></script> -->
+<section class="st-hero">
+  <!-- HEADER************ -->
+  <section class="st-header">
+    <div class="st-container">
+      <img
+        class="st-logo st-logo-header"
+        srcset="/images/header/logo.png 1x, /images/header/logo@2x.png 2x"
+        src="/images/header/logo.png"
+        alt="logo-ice-cream"
+      />
+      <button class="st-hamburger" data-hamburger-open aria-label="Menu">
+        <svg class="st-icon-Burger">
+          <use href="images/sprite.svg#icon-Burger"></use>
+        </svg>
+      </button>
+      <button class="st-button st-buy-button" type="button">Buy now</button>
+    </div>
+  </section>
+  <!-- HEADER END*********** -->
+  <!-- <script src="./mobile-menu.js"></script> -->
+  <div class="st-container">
+    <div class="st-hero__box">
+      <h1 class="st-hero__text">
+        ice cream made with <span class="st-hero__text-accent">passion</span>
+      </h1>
+      <div class="st-box-button">
+        <button class="st-small-button" type="button">Products</button>
+        <button class="st-small-button" type="button">How it's made?</button>
+      </div>
+      <div class="st-hero__description">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="./images/hero/milk-desktop.png 1x, ./images/hero/milk-desktop@2x.png 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/hero/milk-tablet.png 1x, ./images/hero/milk-tablet@2x.png 2x"
+          />
+          <img class="st-hero__milk" src="/images/hero/milk-tablet.png" alt="milk" />
+        </picture>
+        <p class="st-hero__text--descritpion">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda nihil sint et
+          molestiae quod repudiandae ad.
+          <a>
+            <img
+              class="st-hero__arrow-rignt"
+              href="#advantages"
+              src="/images/hero/arrow-right.png"
+              alt="arrow right"
+            />
+          </a>
+        </p>
       </div>
     </div>
-    <picture class="hero-picture">
-      <svg class="icon-Ellipse ellipse__hero">
+    <picture class="st-hero__picture">
+      <svg class="st-icon-Ellipse st-ellipse__hero">
         <use href="./images/sprite.svg#icon-Ellipse"></use>
       </svg>
       <source
@@ -23,7 +70,7 @@
         media="(min-width: 320px)"
         srcset="./images/hero/ice-cream-mobile.png 1x, ./images/hero/ice-cream-mobile@2x.png 2x"
       />
-      <img class="ice-cream" src="/images/hero/ice-cream-mobile.png" alt="ice cream" />
+      <img class="st-ice-cream" src="/images/hero/ice-cream-mobile.png" alt="ice cream" />
     </picture>
   </div>
 </section>

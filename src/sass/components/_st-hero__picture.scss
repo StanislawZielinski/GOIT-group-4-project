@@ -1,0 +1,15 @@
+.st-hero__picture {
+  z-index: -1;
+  position: absolute;
+  bottom: 0%;
+  left: 7%;
+}
+
+// TABLET*********
+@media screen and (min-width: 768px) {
+  .st-hero__picture {
+    bottom: 0%;
+    left: 40%;
+    z-index: 0;
+  }
+}

@@ -1,0 +1,53 @@
+.st-hero {
+  min-height: 502px;
+  width: 100vw;
+  background-color: $pink-bg-color;
+
+  &__text {
+    width: 218px;
+    font-family: $primary-font-family;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 26px;
+    line-height: 1.154;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 19px;
+
+    &-accent {
+      color: $primary-font-color;
+      font-size: 48px;
+    }
+  }
+}
+
+.st-hero__box {
+  margin-top: 137px;
+}
+// TABLET*********
+@media screen and (min-width: 768px) {
+  .st-hero {
+    min-height: 399px;
+    padding-top: 12px;
+    padding-bottom: 28px;
+
+    &__text {
+      margin-bottom: 0;
+      width: 162px;
+      margin-bottom: 0px;
+      font-size: 22px;
+
+      &-accent {
+        font-size: 34px;
+      }
+    }
+  }
+
+  .st-hero__box {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 269px;
+  }
+}
