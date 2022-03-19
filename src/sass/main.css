@@ -5,7 +5,6 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Titan+One&display=swap");
-
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .products {
     padding: 0 20px;
@@ -372,23 +371,13 @@ video {
 
 a {
   text-decoration: none;
-
-.container {
-  padding: 0 20px;
-  min-width: 320px;
-  max-width: 767px;
-
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    min-width: 768px;
-    max-width: 1199px;
-  }
+button {
+  cursor: pointer;
 }
 
 .st-header {
-  background-color: #ffb8ca;
   padding-top: 6px;
 }
 
@@ -411,15 +400,13 @@ a {
 }
 
 .st-hero {
-  z-index: -2;
-  height: 446px;
-  position: absolute;
+  min-height: 502px;
+  width: 100vw;
   background-color: #ffb8ca;
 }
 
 .st-hero__text {
   width: 218px;
-  z-index: 1;
   font-family: "Titan One";
   text-transform: uppercase;
   color: #fff;
@@ -435,39 +422,38 @@ a {
   font-size: 48px;
 }
 
-.st-hero-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 446px;
+.st-hero__box {
+  margin-top: 137px;
 }
 
 @media screen and (min-width: 768px) {
   .st-hero {
-    height: 399px;
+    min-height: 399px;
     padding-top: 12px;
+    padding-bottom: 28px;
   }
   .st-hero__text {
+    margin-bottom: 0;
     width: 162px;
-    padding-top: 3px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     font-size: 22px;
   }
   .st-hero__text-accent {
     font-size: 34px;
   }
-  .st-hero-box {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    height: 312px;
+  .st-hero__box {
+    margin-top: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-height: 269px;
   }
 }
 
@@ -499,6 +485,7 @@ a {
   border: 0;
   background-color: transparent;
   cursor: pointer;
+  z-index: 2;
 }
 
 @media screen and (min-width: 1200px) {
@@ -516,11 +503,9 @@ a {
   position: absolute;
   top: -5%;
   left: 0%;
-  z-index: -1;
 }
 
 .st-ice-cream {
-  z-index: 2;
   width: 171px;
   height: 410px;
   -webkit-transform: translate(50%);
@@ -555,17 +540,18 @@ a {
   }
 }
 
-.st-hero-picture {
+.st-hero__picture {
+  z-index: -1;
   position: absolute;
   bottom: 0%;
-  left: 15%;
+  left: 7%;
 }
 
-
 @media screen and (min-width: 768px) {
-  .st-hero-picture {
+  .st-hero__picture {
     bottom: 0%;
-    left: 45%;
+    left: 40%;
+    z-index: 0;
   }
 }
 
@@ -627,7 +613,7 @@ a {
   border-style: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 8px 6px;
+  padding: 7px 15px;
   border-radius: 20px;
   cursor: pointer;
   background: #ffffff;
@@ -656,9 +642,6 @@ a {
 }
 
 .st-buy-button {
-
-.buy-button {
-
   display: none;
 }
 
@@ -671,6 +654,84 @@ a {
 @media screen and (min-width: 768px) {
   .st-logo-header {
     margin-right: 291px;
+  }
+}
+
+.st-hero__description {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .st-hero__description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .st-hero__milk {
+    width: 124px;
+    height: 126px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .st-hero__milk {
+    width: 188px;
+    height: 191px;
+  }
+}
+
+.st-hero__text--descritpion {
+  color: #fff;
+  font-family: var("DM Sans");
+  font-size: 8px;
+  line-height: 1.5;
+  width: 114px;
+}
+
+.st-hero__arrow-rignt {
+  width: 18px;
+  height: 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .container {
+    width: 1038px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -1579,7 +1640,7 @@ button {
             justify-content: center;
   }
   .branch__category--cafe p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1602,7 +1663,7 @@ button {
             justify-content: center;
   }
   .branch__category--foodtrack p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1610,7 +1671,7 @@ button {
     color: #ffffff;
   }
   .branch__city {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1619,7 +1680,7 @@ button {
     color: #000000;
   }
   .branch__description {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1627,7 +1688,7 @@ button {
     color: #907e82;
   }
   .branch__description:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -1640,7 +1701,7 @@ button {
     margin: 0;
   }
   .branch__opening-days-and-hours:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -1648,7 +1709,7 @@ button {
     margin: 25px auto 25px auto;
   }
   .branch__opening-days-and-hours li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1660,7 +1721,7 @@ button {
     margin: 0;
   }
   .branch__contact li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1731,7 +1792,7 @@ button {
     margin: 0 31px 30px 31px;
   }
   .branch__category--cafe p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1755,7 +1816,7 @@ button {
     margin: 0 31px 30px 31px;
   }
   .branch__category--foodtrack p {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -1763,7 +1824,7 @@ button {
     color: #ffffff;
   }
   .branch__city {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1773,7 +1834,7 @@ button {
     margin: 0 31px 14px 31px;
   }
   .branch__description {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1782,7 +1843,7 @@ button {
     margin: 0 31px;
   }
   .branch__description:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -1795,7 +1856,7 @@ button {
     margin: 0 31px;
   }
   .branch__opening-days-and-hours:after {
-    content: "";
+    content: '';
     display: inline-block;
     height: 1px;
     min-width: 100%;
@@ -1803,7 +1864,7 @@ button {
     margin: 14px auto 30px auto;
   }
   .branch__opening-days-and-hours li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1815,7 +1876,7 @@ button {
     margin: 0 31px;
   }
   .branch__contact li {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -1861,355 +1922,6 @@ button {
     background-color: #fff;
     background-image: url("../images/contacts/contacts-bg.png"), -webkit-gradient(linear, left top, left bottom, color-stop(14.5%, rgba(0, 0, 0, 0)), color-stop(14.5%, #fff5f6));
     background-image: url("../images/contacts/contacts-bg.png"), linear-gradient(to bottom, rgba(0, 0, 0, 0) 14.5%, #fff5f6 14.5%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-  }
-  .section-contacts__heading {
-    display: none;
-  }
-  .section-contacts__card {
-    margin: 0 15.5px;
-    width: 330px;
-    height: 572px;
-    background: #fff;
-    -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-            box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-    border-radius: 24px;
-  }
-  .branch {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .branch__category--cafe {
-    border-radius: 4px;
-    height: 28px;
-    background: #f0d1a5;
-    width: 73px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0 43px 30px 43px;
-  }
-  .branch__category--cafe p {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 186%;
-    color: #ffffff;
-    letter-spacing: 0.04em;
-  }
-  .branch__category--foodtrack {
-    border-radius: 4px;
-    height: 28px;
-    background: #c2e297;
-    width: 138px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0 43px 30px 43px;
-  }
-  .branch__category--foodtrack p {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 186%;
-    color: #ffffff;
-    letter-spacing: 0.04em;
-  }
-  .branch__city {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    color: #000000;
-    margin: 0 43px 14px 43px;
-  }
-  .branch__description {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 166%;
-    color: #907e82;
-    margin: 0 43px;
-  }
-  .branch__description:after {
-    content: '';
-    display: inline-block;
-    height: 1px;
-    min-width: 100%;
-    border-bottom: 1px solid #e1e1e1;
-    margin: 30px auto 30px auto;
-  }
-  .branch__opening-days-and-hours {
-    list-style: none;
-    padding: 0;
-    margin: 0 43px;
-  }
-  .branch__opening-days-and-hours:after {
-    content: '';
-    display: inline-block;
-    height: 1px;
-    min-width: 100%;
-    border-bottom: 1px solid #e1e1e1;
-    margin: 14px auto 30px auto;
-  }
-  .branch__opening-days-and-hours li {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 186%;
-  }
-  .branch__contact {
-    list-style: none;
-    padding: 0;
-    margin: 0 43px;
-  }
-  .branch__contact li {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 186%;
-    color: #907e82;
-  }
-  .opening__days {
-    color: #000000;
-  }
-  .opening__hours {
-    color: #ffa5ba;
-    margin-bottom: 16px;
-  }
-  .contacts-buttons {
-    min-width: 768px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .contacts-buttons .main-button {
-    margin: 86px 15px 0 0;
-    width: 198px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .section-contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0;
-    background-color: #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(8.6%, rgba(0, 0, 0, 0)), color-stop(8.6%, #fff5f6));
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 8.6%, #fff5f6 8.6%);
-  }
-  .section-contacts__heading {
-    display: none;
-  }
-  .section-contacts__card {
-    margin: 0 10px;
-    width: 220px;
-    height: 544px;
-    background: #fff;
-    -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-            box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-    border-radius: 24px;
-  }
-  .branch {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .branch__category--cafe {
-    border-radius: 4px;
-    height: 28px;
-    background: #f0d1a5;
-    width: 73px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0 31px 30px 31px;
-  }
-  .branch__category--cafe p {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 186%;
-    color: #ffffff;
-  }
-  .branch__category--foodtrack {
-    border-radius: 4px;
-    height: 28px;
-    background: #c2e297;
-    width: 138px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 0 31px 30px 31px;
-  }
-  .branch__category--foodtrack p {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 186%;
-    color: #ffffff;
-  }
-  .branch__city {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 186%;
-    letter-spacing: 0.04em;
-    color: #000000;
-    margin: 0 31px 14px 31px;
-  }
-  .branch__description {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 166%;
-    color: #907e82;
-    margin: 0 31px;
-  }
-  .branch__description:after {
-    content: '';
-    display: inline-block;
-    height: 1px;
-    min-width: 100%;
-    border-bottom: 1px solid #e1e1e1;
-    margin: 30px auto 30px auto;
-  }
-  .branch__opening-days-and-hours {
-    list-style: none;
-    padding: 0;
-    margin: 0 31px;
-  }
-  .branch__opening-days-and-hours:after {
-    content: '';
-    display: inline-block;
-    height: 1px;
-    min-width: 100%;
-    border-bottom: 1px solid #e1e1e1;
-    margin: 14px auto 30px auto;
-  }
-  .branch__opening-days-and-hours li {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 186%;
-  }
-  .branch__contact {
-    list-style: none;
-    padding: 0;
-    margin: 0 31px;
-  }
-  .branch__contact li {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 186%;
-    color: #907e82;
-  }
-  .opening__days {
-    color: #000000;
-  }
-  .opening__hours {
-    color: #ffa5ba;
-    margin-bottom: 16px;
-  }
-  .contacts-buttons {
-    min-width: 768px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .contacts-buttons .main-button {
-    margin: 81px 14.5px 0 0;
-    width: 191.44px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .section-contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 0;
-    background-color: #fff;
-    background-image: url("/images/contacts/contacts-bg.png"), -webkit-gradient(linear, left top, left bottom, color-stop(14.5%, rgba(0, 0, 0, 0)), color-stop(14.5%, #fff5f6));
-    background-image: url("/images/contacts/contacts-bg.png"), linear-gradient(to bottom, rgba(0, 0, 0, 0) 14.5%, #fff5f6 14.5%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -2513,6 +2225,7 @@ button {
   gap: 30px;
   -ms-grid-columns: (minmax(200px, 450px))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
+  justify-items: center;
 }
 
 .advantages__item {
@@ -2540,8 +2253,9 @@ button {
 }
 
 .advantages__img {
+  width: 44px;
   height: 50px;
-  margin-top: 10px;
+  left: 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -2565,6 +2279,15 @@ button {
   .advantages__img {
     left: 20px;
   }
+  .advantages__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
@@ -2580,6 +2303,12 @@ button {
     width: 180px;
     height: 71px;
     left: 34px;
+  }
+  .advantages__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
