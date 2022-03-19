@@ -4,7 +4,10 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
+
+
 @import './utils/variables';
+
 
 @import './components/products';
 @import './components/st-container';
@@ -26,15 +29,31 @@
 @import './components/st-hero__text--description';
 @import './components/st-hero__arrow-right';
 
+
+@import './components/container';
+
+@import './layout/header';
+@import './layout/hero';
+@import './components/icon';
+@import './components/hamburger';
+@import './components/logo';
+@import './components/ellipse__hero';
+@import './components/ice-cream';
+@import './components/box-button';
+@import './components/hero-picture';
+
+@import './components/buy-button';
+
+
+
 @import './base/common';
 @import './base/container';
 @import './base/colors';
 @import './base/fonts';
-@import './base/fond-size';
+@import './base/font-size';
 
-@import './components/shop';
-@import './components/footer-button';
-@import './components/shop-line';
+@import './components/socials';
+@import './components/rights';
 
 @import './layouts/footer';
 
