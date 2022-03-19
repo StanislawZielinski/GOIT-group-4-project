@@ -31,3 +31,20 @@
     }
   }
 }
+
+@media screen and (min-width: 1201px) {
+  .footer__rights {
+    display: flex;
+    margin: 9px auto 10px auto;
+
+    &-text {
+      font-family: $font1;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $size6;
+      line-height: 186%;
+      color: #907e82;
+      margin-left: 5px;
+    }
+  }
+}
