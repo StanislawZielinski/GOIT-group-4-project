@@ -57,3 +57,48 @@
     margin: 43px 0 22px 0;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: $puderpink;
+    background-position: center top;
+    margin-top: 84px;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 165px 0 91px 0;
+    }
+
+    &__text1 {
+      font-family: $font2;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $size7;
+      line-height: 30px;
+      color: $puderpink2;
+      margin-bottom: 17px;
+    }
+
+    &__text2 {
+      width: 220px;
+      font-family: $font2;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $size8;
+      line-height: 55px;
+      color: $red;
+      margin-bottom: 5px;
+    }
+  }
+
+  .footer__line {
+    height: 0px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+  }
+}

@@ -111,6 +111,17 @@ button {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__socials {
     display: -webkit-box;
@@ -146,6 +157,87 @@ button {
   }
 }
 
+.footer__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 13px;
+}
+
+.footer__phone-number {
+  margin-left: 4px;
+  color: #d41342;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__contakt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    margin-top: 158px;
+  }
+  .footer__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 46px;
+  }
+  .footer__socials-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffa5ba;
+    margin-left: 28.24px;
+    cursor: pointer;
+  }
+  .socials__icons {
+    width: 18.82px;
+    height: 18.82px;
+    fill: #ffffff;
+  }
+  .footer__phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 13px;
+  }
+  .footer__phone-number {
+    margin-left: 3px;
+    color: #d41342;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__rights {
     display: -webkit-box;
@@ -167,6 +259,24 @@ button {
     font-size: 14px;
     line-height: 152%;
     color: #907e82;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__rights {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 29px auto 18px auto;
+  }
+  .footer__rights-text {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 152%;
+    color: #907e82;
+    margin-left: 5px;
   }
 }
 
@@ -233,6 +343,57 @@ button {
     width: 100%;
     border: 1px solid #e1e1e1;
     margin: 43px 0 22px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #fff5f6;
+    background-position: center top;
+    margin-top: 84px;
+  }
+  .footer__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+    margin: 165px 0 91px 0;
+  }
+  .footer__text1 {
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #ffa5ba;
+    margin-bottom: 17px;
+  }
+  .footer__text2 {
+    width: 220px;
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    color: #d41342;
+    margin-bottom: 5px;
+  }
+  .footer__line {
+    height: 0px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
   }
 }
 /*# sourceMappingURL=main.css.map */

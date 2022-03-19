@@ -24,3 +24,65 @@
     fill: $white;
   }
 }
+.footer__phone {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  font-family: $font1;
+  font-weight: 700;
+  font-style: bold;
+  font-size: $size5;
+
+  &-number {
+    margin-left: 4px;
+    color: $red;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__contakt {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 158px;
+  }
+
+  .footer__socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 46px;
+
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: $puderpink2;
+      margin-left: 28.24px;
+      cursor: pointer;
+    }
+  }
+
+  .socials__icons {
+    width: 18.82px;
+    height: 18.82px;
+    fill: $white;
+  }
+
+  .footer__phone {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-family: $font6;
+    font-weight: 700;
+    font-style: bold;
+    font-size: $size5;
+
+    &-number {
+      margin-left: 3px;
+      color: $red;
+    }
+  }
+}

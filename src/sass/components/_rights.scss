@@ -14,3 +14,20 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__rights {
+    display: flex;
+    margin: 29px auto 18px auto;
+
+    &-text {
+      font-family: $font1;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $size6;
+      line-height: 152%;
+      color: #907e82;
+      margin-left: 5px;
+    }
+  }
+}
