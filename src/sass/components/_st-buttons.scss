@@ -12,7 +12,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(16px / 21);
   color: #d41342;
   & svg {
     margin-left: 8px;
@@ -27,6 +26,7 @@
     & svg,
     & svg {
       stroke: #fff;
+      fill: #fff;
     }
   }
 }

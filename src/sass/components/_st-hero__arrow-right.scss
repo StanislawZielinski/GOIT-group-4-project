@@ -1,4 +1,13 @@
+// Tablet*********
 .st-hero__arrow-rignt {
   width: 18px;
   height: 18px;
+  cursor: pointer;
+}
+// DESKTOP********
+@media screen and (min-width: 1200px) {
+  .st-hero__arrow-rignt {
+    width: 26px;
+    height: 26px;
+  }
 }

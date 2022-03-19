@@ -1,0 +1,9 @@
+.st-so-tasty {
+  display: none;
+}
+// TABLET********
+@media screen and (min-width: 768px) {
+  .st-so-tasty {
+    display: block;
+  }
+}

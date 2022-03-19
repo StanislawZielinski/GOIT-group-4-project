@@ -1,15 +1,22 @@
 .st-hero__picture {
-  z-index: -1;
+  z-index: 0;
   position: absolute;
-  bottom: 0%;
-  left: 7%;
+  top: 92px;
+  left: 27%;
 }
-
+.st-hero__picture-so-tasty {
+  display: none;
+}
 // TABLET*********
 @media screen and (min-width: 768px) {
   .st-hero__picture {
-    bottom: 0%;
+    top: 83px;
     left: 40%;
     z-index: 0;
   }
+}
+.st-hero__picture-so-tasty {
+  display: block;
+  width: 168px;
+  height: 133px;
 }

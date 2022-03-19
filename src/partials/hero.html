@@ -14,16 +14,54 @@
           <use href="images/sprite.svg#icon-Burger"></use>
         </svg>
       </button>
-      <button class="st-button st-buy-button" type="button">Buy now</button>
+      <button class="st-button st-buy-button" type="button">
+        Buy now
+        <svg
+          class="st-icon-Vector"
+          width="7"
+          height="10"
+          viewBox="0 0 7 10"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1.74213 1L5.76728 5L1.74213 9"
+            stroke="#D41443"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
     </div>
   </section>
   <!-- HEADER END*********** -->
   <!-- <script src="./mobile-menu.js"></script> -->
   <div class="st-container">
+    <picture class="st-hero__picture">
+      <svg class="st-icon-Ellipse st-ellipse__hero">
+        <use href="./images/sprite.svg#icon-Ellipse"></use>
+      </svg>
+      <source
+        media="(min-width: 1200px)"
+        srcset="./images/hero/ice-cream-desktop.png 1x, ./images/hero/ice-cream-desktop@2x.png 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/hero/ice-cream-tablet.png 1x, ./images/hero/ice-cream-tablet@2x.png 2x"
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="./images/hero/ice-cream-mobile.png 1x, ./images/hero/ice-cream-mobile@2x.png 2x"
+      />
+      <img class="st-ice-cream" src="/images/hero/ice-cream-mobile.png" alt="ice cream" />
+    </picture>
+
     <div class="st-hero__box">
       <h1 class="st-hero__text">
         ice cream made with <span class="st-hero__text-accent">passion</span>
       </h1>
+
       <div class="st-box-button">
         <button class="st-small-button" type="button">Products</button>
         <button class="st-small-button" type="button">How it's made?</button>
@@ -54,23 +92,16 @@
         </p>
       </div>
     </div>
-    <picture class="st-hero__picture">
-      <svg class="st-icon-Ellipse st-ellipse__hero">
-        <use href="./images/sprite.svg#icon-Ellipse"></use>
-      </svg>
+    <picture class="st-hero__picture-so-tasty">
       <source
         media="(min-width: 1200px)"
-        srcset="./images/hero/ice-cream-desktop.png 1x, ./images/hero/ice-cream-desktop@2x.png 2x"
+        srcset="./images/hero/soo-tasty-desktop.png 1x, ./images/hero/soo-tasty-desktop@2x.png 2x"
       />
       <source
         media="(min-width: 768px)"
-        srcset="./images/hero/ice-cream-tablet.png 1x, ./images/hero/ice-cream-tablet@2x.png 2x"
+        srcset="./images/hero/soo-tasty-tablet.png 1x, ./images/hero/soo-tasty-tablet@2x.png 2x"
       />
-      <source
-        media="(min-width: 320px)"
-        srcset="./images/hero/ice-cream-mobile.png 1x, ./images/hero/ice-cream-mobile@2x.png 2x"
-      />
-      <img class="st-ice-cream" src="/images/hero/ice-cream-mobile.png" alt="ice cream" />
+      <img class="st-so-tasty" src="/images/hero/soo-tasty-tablet.png" alt="soo tasty" />
     </picture>
   </div>
 </section>
