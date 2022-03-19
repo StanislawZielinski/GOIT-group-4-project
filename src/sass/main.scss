@@ -4,6 +4,26 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
+
+
+@import './utils/variables';
+
+
+@import './components/container';
+
+@import './layout/header';
+@import './layout/hero';
+@import './components/icon';
+@import './components/hamburger';
+@import './components/logo';
+@import './components/ellipse__hero';
+@import './components/ice-cream';
+@import './components/box-button';
+@import './components/hero-picture';
+
+@import './components/buy-button';
+
+
 @import './base/common';
 @import './base/container';
 @import './base/colors';
@@ -14,3 +34,10 @@
 @import './components/rights';
 
 @import './layouts/footer';
+
+@import './components/products';
+@import './components/contacts';
+@import './components/reviews';
+@import './components/buttons';
+
+@import './components/advantages';
