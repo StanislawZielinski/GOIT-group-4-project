@@ -1,9 +1,10 @@
 .st-hero {
-  // min-height: 502px;
   width: 100vw;
+  height: 502px;
   background-color: $pink-bg-color;
 
   &__text {
+    z-index: 1;
     width: 218px;
     font-family: $primary-font-family;
     text-transform: uppercase;
@@ -22,12 +23,14 @@
 }
 
 .st-hero__box {
-  // margin-top: 137px;
+  margin-top: 137px;
+  position: relative;
+  z-index: 1;
 }
 // TABLET*********
 @media screen and (min-width: 768px) {
   .st-hero {
-    min-height: 399px;
+    height: 399px;
     padding-top: 12px;
     padding-bottom: 28px;
 
@@ -48,6 +51,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 269px;
+    min-height: 267px;
   }
 }

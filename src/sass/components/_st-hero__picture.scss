@@ -1,22 +1,38 @@
 .st-hero__picture {
-  z-index: 0;
   position: absolute;
   top: 92px;
   left: 27%;
 }
-.st-hero__picture-so-tasty {
+.st-hero__picture-so-tasty,
+.st-hero__picture-16,
+.st-hero__picture-23 {
   display: none;
 }
+
 // TABLET*********
 @media screen and (min-width: 768px) {
   .st-hero__picture {
-    top: 83px;
+    top: 63px;
     left: 40%;
     z-index: 0;
   }
-}
-.st-hero__picture-so-tasty {
-  display: block;
-  width: 168px;
-  height: 133px;
+  .st-hero__picture-so-tasty {
+    display: block;
+    width: 168px;
+    height: 133px;
+    position: absolute;
+    top: 266px;
+    left: 75%;
+  }
+
+  .st-hero__picture-16 {
+    display: block;
+    width: 43px;
+    height: 44px;
+  }
+  .st-hero__picture-23 {
+    display: block;
+    width: 51px;
+    height: 43px;
+  }
 }

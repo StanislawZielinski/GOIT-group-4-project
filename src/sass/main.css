@@ -400,7 +400,6 @@ button {
 }
 
 .st-hero {
-  min-height: 502px;
   width: 100vw;
   background-color: #ffb8ca;
 }
@@ -420,10 +419,6 @@ button {
 .st-hero__text-accent {
   color: #d41443;
   font-size: 48px;
-}
-
-.st-hero__box {
-  margin-top: 137px;
 }
 
 @media screen and (min-width: 768px) {
@@ -541,18 +536,28 @@ button {
 }
 
 .st-hero__picture {
-  z-index: -1;
+  z-index: 0;
   position: absolute;
-  bottom: 0%;
-  left: 7%;
+  top: 92px;
+  left: 27%;
+}
+
+.st-hero__picture-so-tasty {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .st-hero__picture {
-    bottom: 0%;
+    top: 83px;
     left: 40%;
     z-index: 0;
   }
+}
+
+.st-hero__picture-so-tasty {
+  display: block;
+  width: 168px;
+  height: 133px;
 }
 
 .st-button {
@@ -704,6 +709,16 @@ button {
   .st-hero__arrow-rignt {
     width: 26px;
     height: 26px;
+  }
+}
+
+.st-so-tasty {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .st-so-tasty {
+    display: block;
   }
 }
 
