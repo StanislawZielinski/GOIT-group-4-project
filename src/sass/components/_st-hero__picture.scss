@@ -9,12 +9,26 @@
   display: none;
 }
 
+.st-ice-cream {
+  width: 171px;
+  height: 410px;
+  transform: translate(50%);
+}
+.st-ellipse__hero {
+  position: absolute;
+  top: -5%;
+  left: 0%;
+}
 // TABLET*********
 @media screen and (min-width: 768px) {
   .st-hero__picture {
     top: 63px;
     left: 40%;
     z-index: 0;
+  }
+  .st-ice-cream {
+    width: 143px;
+    height: 336px;
   }
   .st-hero__picture-so-tasty {
     display: block;
@@ -29,10 +43,32 @@
     display: block;
     width: 43px;
     height: 44px;
+    position: absolute;
+    top: 94px;
+    left: 91%;
   }
   .st-hero__picture-23 {
     display: block;
     width: 51px;
     height: 43px;
+    position: absolute;
+    top: 151px;
+    left: 91%;
+  }
+  .st-hero__milk {
+    width: 124px;
+    height: 126px;
+  }
+}
+// DESKTOP*********
+@media screen and (min-width: 1200px) {
+  .st-ice-cream {
+    width: 236px;
+    height: 557px;
+  }
+
+  .st-hero__milk {
+    width: 188px;
+    height: 191px;
   }
 }

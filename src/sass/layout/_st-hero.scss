@@ -1,4 +1,5 @@
 .st-hero {
+  padding-top: 6px;
   width: 100vw;
   height: 502px;
   background-color: $pink-bg-color;
@@ -30,8 +31,8 @@
 // TABLET*********
 @media screen and (min-width: 768px) {
   .st-hero {
+    padding-top: 37px;
     height: 399px;
-    padding-top: 12px;
     padding-bottom: 28px;
 
     &__text {
