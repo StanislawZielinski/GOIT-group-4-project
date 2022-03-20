@@ -5,6 +5,97 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Titan+One&display=swap");
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 161.45px;
+  height: 44px;
+  border-radius: 22px;
+  cursor: pointer;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(16px / 21);
+  color: #d41342;
+}
+
+.button svg {
+  margin-left: 8px;
+  stroke: #d41342;
+}
+
+.button:hover, .button:focus, .button:active {
+  background: #d41342;
+  color: #fff;
+}
+
+.button:hover svg,
+.button:hover svg,
+.button:hover svg, .button:focus svg,
+.button:focus svg,
+.button:focus svg, .button:active svg,
+.button:active svg,
+.button:active svg {
+  stroke: #fff;
+}
+
+.main-button {
+  margin: 0 auto 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 161.45px;
+  height: 44px;
+  border-radius: 22px;
+  cursor: pointer;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(16px / 21px);
+  color: #d41342;
+}
+
+.main-button svg {
+  margin-left: 8px;
+  stroke: #d41342;
+}
+
+.main-button:hover, .main-button:focus, .main-button:active {
+  background: #d41342;
+  color: #fff;
+}
+
+.main-button:hover svg,
+.main-button:hover svg,
+.main-button:hover svg, .main-button:focus svg,
+.main-button:focus svg,
+.main-button:focus svg, .main-button:active svg,
+.main-button:active svg,
+.main-button:active svg {
+  stroke: #fff;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .products {
     padding: 0 20px;
@@ -491,6 +582,91 @@ button {
 @media screen and (min-width: 1200px) {
   .st-hamburger {
     display: none;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .mobile-box {
+    position: fixed;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    min-width: 250px;
+    height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    right: 0;
+    top: 0;
+    background-color: #E17992;
+    display: none;
+    padding: 0;
+    margin: 0 0;
+    z-index: 3;
+  }
+  .mobile-box__close {
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile-box__close {
+    background-color: transparent;
+    border: none;
+  }
+  .mobile-box__btn {
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .mobile-box__btn svg {
+    width: 16px;
+    height: 16px;
+  }
+  .mobile-box__buy-btn {
+    margin: 60px auto 0;
+    width: 209px;
+  }
+  .mobile-box__nav-mobile {
+    margin-top: 32px;
+    padding: 0;
+  }
+  .nav-mobile {
+    list-style: none;
+    padding: 0;
+  }
+  .nav-mobile__link {
+    display: block;
+    height: 42px;
+    border: 1px solid #E18298;
+  }
+  .nav-mobile__link a {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+    margin: 13px 0 0 21px;
+  }
+  .nav-mobile__link a:hover, .nav-mobile__link a:focus {
+    color: #D41443;
   }
 }
 
@@ -2119,97 +2295,6 @@ button {
   .red-dot {
     padding-right: 10px;
   }
-}
-
-.button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 161.45px;
-  height: 44px;
-  border-radius: 22px;
-  cursor: pointer;
-  background: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(16px / 21);
-  color: #d41342;
-}
-
-.button svg {
-  margin-left: 8px;
-  stroke: #d41342;
-}
-
-.button:hover, .button:focus, .button:active {
-  background: #d41342;
-  color: #fff;
-}
-
-.button:hover svg,
-.button:hover svg,
-.button:hover svg, .button:focus svg,
-.button:focus svg,
-.button:focus svg, .button:active svg,
-.button:active svg,
-.button:active svg {
-  stroke: #fff;
-}
-
-.main-button {
-  margin: 0 auto 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 161.45px;
-  height: 44px;
-  border-radius: 22px;
-  cursor: pointer;
-  background: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(16px / 21px);
-  color: #d41342;
-}
-
-.main-button svg {
-  margin-left: 8px;
-  stroke: #d41342;
-}
-
-.main-button:hover, .main-button:focus, .main-button:active {
-  background: #d41342;
-  color: #fff;
-}
-
-.main-button:hover svg,
-.main-button:hover svg,
-.main-button:hover svg, .main-button:focus svg,
-.main-button:focus svg,
-.main-button:focus svg, .main-button:active svg,
-.main-button:active svg,
-.main-button:active svg {
-  stroke: #fff;
 }
 
 .advantages {
