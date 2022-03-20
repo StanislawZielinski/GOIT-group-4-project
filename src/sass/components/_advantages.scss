@@ -1,112 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Titan+One&display=swap');
-
 .advantages {
+  background-color: #fff5f6;
+
   &__list {
-    display: grid;
-    align-items: center;
-    // justify-content: center;
-    gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
-    justify-items: center;
+    list-style: none;
+    margin-left: 20px;
   }
+
   &__item {
-    max-width: 450px;
-    text-align: left;
-  }
-  &__title {
-    font-family: 'Titan One';
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 41px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #d41443;
-  }
-  &__description {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 170%;
-    color: #000000;
-  }
+    &--img {
+      margin-top: 10px;
+    }
 
-  &__img {
-    width: 44px;
-    height: 50px;
-    left: 20px;
+    &--title {
+      color: #d41443;
+      font-family: 'Titan One', cursive;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 41px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding-top: 16px;
+    }
+
+    &--description {
+      color: #000000;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 170%;
+      padding-top: 34px;
+      padding-right: 70px;
+    }
+
+    
   }
-
-  background: #fff5f6;
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .advantages {
+  @media screen and (min-width: 768px) {
     &__list {
-      grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-      justify-content: start;
-    }
-    &__item {
-      left: 20px;
-      max-width: 354px;
-      text-align: left;
-    }
-    &__description {
-      width: 230px;
-      height: 36px;
-      left: 20px;
-    }
-    &__img {
-      left: 20px;
-    }
-
-    &__container {
       display: flex;
-      flex-direction: row;
+      margin-left: 36px;
+    }
+    &__item--img {
+      margin-top: 38px;
+    }
+    &__item--title {
+      font-size: 48px;
+      line-height: 54.96px;
+      padding-top: 36px;
+    }
+    &__item--description {
+      font-size: 14px;
+      line-height: 24.36px;
+      padding-top: 13px;
+      padding-right: 60px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    &__list {
+      margin-left: 115px;
+    }
+    &__item--img {
+      margin-top: 118px;
+    }
+    &__item--title {
+      font-size: 58px;
+      line-height: 66.41px;
+      padding-top: 40px;
+    }
+    &__item--description {
+      font-size: 16px;
+      line-height: 28.16px;
+      padding-top: 15px;
+      padding-right: 30px;
     }
   }
 }
-
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-  .advantages {
-    &__list {
-      grid-template-columns: repeat(auto-fit, minmax(305px, auto));
-    }
-    &__item {
-      max-width: 354px;
-      text-align: left;
-    }
-    &__description {
-      width: 180px;
-      height: 71px;
-      left: 34px;
-    }
-    &__container {
-      // display: inline-flex;
-      // justify-content: space-between;
-      flex-direction: column;
-    }
-    &__img {
-    }
-  }
+.wrapper {
+  max-width: 1280px;
+  margin-inline: auto;
 }
 
-@media screen and (min-width: 1280px) {
-  .advantages {
-    padding-bottom: 0;
-    &__list {
-      grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-    }
-    &__item {
-      width: 330px;
-      height: 222px;
-    }
-    &__description {
-      width: 330px;
-      height: 52px;
-      left: 475px;
-    }
-    &__img {
-    }
-  }
+.is-hidden {
+  display: none;
 }

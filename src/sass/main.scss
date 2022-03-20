@@ -7,11 +7,24 @@
 
 @import './utils/variables';
 
+
 @import './components/products';
 @import './components/st-container';
 @import './base/common';
+
+@import './components/buttons';
+
+@import './components/products';
+@import './components/st-container';
+// @import './base/common';
+@import './layout/st-header';
+@import './layout/st-hero';
+
 @import './components/st-icon';
 @import './components/st-hamburger';
+
+@import './components/modal_menu';
+
 @import './components/st-logo';
 @import './components/st-box-button';
 @import './components/st-hero__picture';
@@ -21,7 +34,13 @@
 @import './components/st-hero__description';
 @import './components/st-hero__arrow-right';
 
+
 @import './base/common';
+
+@import './base/container';
+
+// @import './base/common';
+
 @import './base/container';
 @import './base/colors';
 @import './base/fonts';
@@ -38,6 +57,6 @@
 @import './components/products';
 @import './components/contacts';
 @import './components/reviews';
-@import './components/buttons';
-
+@import './components/gallery';
 @import './components/advantages';
+@import './components/about';

@@ -1,0 +1,47 @@
+<script>
+  function myFunction() {
+    var x = document.getElementById('mobile-menu');
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  }
+</script>
+
+<div class="mobile-box" style="display: none" id="mobile-menu">
+  <div class="mobile-box__close close-mobile__btn" onclick="myFunction()">
+    <button class="mobile-box__btn">
+      <svg class="close-menu" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.25928 1L14.7408 15" stroke="white" />
+        <path d="M1 14.7407L15 1.25924" stroke="white" />
+      </svg>
+    </button>
+  </div>
+
+  <button type="button" class="mobile-box__buy-btn main-button">
+    Buy now
+    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M1 1L4.61035 5L1 9"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </button>
+
+  <nav class="mobile-box__nav-mobile">
+    <ul class="nav-mobile">
+      <li class="nav-mobile__link"><a href="#home">Home</a></li>
+      <li class="nav-mobile__link"><a href="#about-us">About us</a></li>
+      <li class="nav-mobile__link">
+        <a href="#how-its-made">How it's made?</a>
+      </li>
+      <li class="nav-mobile__link">
+        <a href="#products">Our products</a>
+      </li>
+      <li class="nav-mobile__link"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
