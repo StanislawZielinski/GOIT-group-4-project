@@ -5,8 +5,13 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 
-
 @import './utils/variables';
+
+
+@import './components/products';
+@import './components/st-container';
+@import './base/common';
+
 @import './components/buttons';
 
 @import './components/products';
@@ -14,27 +19,28 @@
 // @import './base/common';
 @import './layout/st-header';
 @import './layout/st-hero';
+
 @import './components/st-icon';
 @import './components/st-hamburger';
 
 @import './components/modal_menu';
 
 @import './components/st-logo';
-@import './components/st-ellipse__hero';
-@import './components/st-ice-cream';
 @import './components/st-box-button';
 @import './components/st-hero__picture';
 @import './components/st-buttons';
 @import './components/st-buy-button';
 @import './components/st-logo-header';
 @import './components/st-hero__description';
-@import './components/st-hero__milk';
-@import './components/st-hero__text--description';
 @import './components/st-hero__arrow-right';
+
+
+@import './base/common';
 
 @import './base/container';
 
 // @import './base/common';
+
 @import './base/container';
 @import './base/colors';
 @import './base/fonts';
@@ -43,6 +49,9 @@
 @import './components/socials';
 @import './components/rights';
 
+@import './layout/st-header';
+@import './layout/st-hero';
+@import './layout/st-nav';
 @import './layouts/footer';
 
 @import './components/products';
