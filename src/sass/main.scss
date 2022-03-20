@@ -7,7 +7,7 @@
 
 
 @import './utils/variables';
-
+@import './components/buttons';
 
 @import './components/products';
 @import './components/st-container';
@@ -16,6 +16,9 @@
 @import './layout/st-hero';
 @import './components/st-icon';
 @import './components/st-hamburger';
+
+@import './components/modal_menu';
+
 @import './components/st-logo';
 @import './components/st-ellipse__hero';
 @import './components/st-ice-cream';
@@ -46,7 +49,5 @@
 @import './components/contacts';
 @import './components/reviews';
 @import './components/gallery';
-@import './components/buttons';
-
 @import './components/advantages';
 @import './components/about';
