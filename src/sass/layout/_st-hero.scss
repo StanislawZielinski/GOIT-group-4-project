@@ -55,3 +55,23 @@
     min-height: 267px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .st-hero {
+    height: 665px;
+    padding-bottom: 45px;
+
+    &__text {
+      width: 277px;
+      margin-bottom: 0px;
+      font-size: 38px;
+
+      &-accent {
+        font-size: 58px;
+      }
+    }
+  }
+  .st-hero__box {
+    margin-top: 84px;
+    min-height: 396px;
+  }
+}

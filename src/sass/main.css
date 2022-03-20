@@ -451,6 +451,21 @@ button {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .st-hero {
+    height: 665px;
+    padding-bottom: 45px;
+  }
+  .st-hero__text {
+    width: 277px;
+    margin-bottom: 0px;
+    font-size: 38px;
+  }
+  .st-hero__text-accent {
+    font-size: 58px;
+  }
+}
+
 .st-icon-Burger {
   width: 20px;
   height: 12px;
@@ -536,7 +551,6 @@ button {
   .st-hero__picture {
     top: 63px;
     left: 40%;
-    z-index: 0;
   }
   .st-ice-cream {
     width: 143px;
@@ -573,6 +587,9 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
+  .st-hero__picture {
+    top: 108px;
+  }
   .st-ice-cream {
     width: 236px;
     height: 557px;
@@ -580,6 +597,21 @@ button {
   .st-hero__milk {
     width: 188px;
     height: 191px;
+  }
+  .st-hero__picture-16 {
+    width: 72px;
+    height: 77px;
+    top: 156px;
+  }
+  .st-hero__picture-23 {
+    width: 92px;
+    height: 76px;
+    top: 248px;
+  }
+  .st-hero__picture-so-tasty {
+    width: 293px;
+    height: 232px;
+    top: 433px;
   }
 }
 
