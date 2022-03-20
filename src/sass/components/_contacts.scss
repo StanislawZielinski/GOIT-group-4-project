@@ -112,12 +112,15 @@
       padding: 0;
       margin: 0;
       & li {
-        font-family: 'DM Sans';
+        & a {
+        font-family: "DM Sans";
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
-        line-height: 150%;
+        font-size: 14px;
+        line-height: 186%;
         color: #907e82;
+        text-decoration: none;
+        }
       }
     }
   }
@@ -247,12 +250,15 @@
       padding: 0;
       margin: 0 31px;
       & li {
-        font-family: 'DM Sans';
+        & a {
+        font-family: "DM Sans";
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 186%;
         color: #907e82;
+        text-decoration: none;
+        }
       }
     }
   }
@@ -401,12 +407,15 @@
       padding: 0;
       margin: 0 43px;
       & li {
-        font-family: 'DM Sans';
+        & a {
+        font-family: "DM Sans";
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 186%;
         color: #907e82;
+        text-decoration: none;
+        }
       }
     }
   }

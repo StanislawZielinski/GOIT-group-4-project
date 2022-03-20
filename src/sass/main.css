@@ -2105,13 +2105,14 @@
     padding: 0;
     margin: 0;
   }
-  .branch__contact li {
-    font-family: 'DM Sans';
+  .branch__contact li a {
+    font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 150%;
+    font-size: 14px;
+    line-height: 186%;
     color: #907e82;
+    text-decoration: none;
   }
   .opening__days {
     color: #000000;
@@ -2260,13 +2261,14 @@
     padding: 0;
     margin: 0 31px;
   }
-  .branch__contact li {
-    font-family: 'DM Sans';
+  .branch__contact li a {
+    font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 186%;
     color: #907e82;
+    text-decoration: none;
   }
   .opening__days {
     color: #000000;
@@ -2437,13 +2439,14 @@
     padding: 0;
     margin: 0 43px;
   }
-  .branch__contact li {
-    font-family: 'DM Sans';
+  .branch__contact li a {
+    font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 186%;
     color: #907e82;
+    text-decoration: none;
   }
   .opening__days {
     color: #000000;
