@@ -5,7 +5,7 @@
 .gallery__img {
   display: flex;
   justify-content: center;
-  max-width: 100%;
+  width: 100%;
     
 }
 
@@ -17,26 +17,27 @@
   .gallery__img {
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    width: 100%;
     
   }
 }
 
 @media screen and (min-width: 1280px) {
   .gallery {
-    padding-top: 139px;
-    padding-bottom: 123px;
+    padding-top: 140px;
+    padding-bottom: 121px;
   }
   .gallery__img {
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    // max-width: 100%;
     
   }
 }
 .wrapper {
   max-width: 1280px;
   margin-inline: auto;
+  padding-inline: 20px;
 }
 
 .is-hidden {
