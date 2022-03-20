@@ -58,11 +58,15 @@
     width: 124px;
     height: 126px;
   }
+  .st-ellipse__hero {
+    top: -8%;
+  }
 }
 // DESKTOP*********
 @media screen and (min-width: 1200px) {
   .st-hero__picture {
     top: 108px;
+    left: 38%;
   }
   .st-ice-cream {
     width: 236px;
@@ -87,5 +91,8 @@
     width: 293px;
     height: 232px;
     top: 433px;
+  }
+  .st-ellipse__hero {
+    top: -10%;
   }
 }
