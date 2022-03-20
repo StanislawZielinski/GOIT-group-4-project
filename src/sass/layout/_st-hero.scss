@@ -4,7 +4,7 @@
   height: 502px;
   background-color: $pink-bg-color;
 
-  &__text {
+  &__title {
     z-index: 1;
     width: 218px;
     font-family: $primary-font-family;
@@ -35,7 +35,7 @@
     height: 399px;
     padding-bottom: 28px;
 
-    &__text {
+    &__title {
       margin-bottom: 0;
       width: 162px;
       margin-bottom: 0px;
@@ -60,9 +60,9 @@
     height: 665px;
     padding-bottom: 45px;
 
-    &__text {
+    &__title {
       width: 277px;
-      margin-bottom: 0px;
+      margin-bottom: 25px;
       font-size: 38px;
 
       &-accent {
@@ -71,7 +71,9 @@
     }
   }
   .st-hero__box {
-    margin-top: 84px;
-    min-height: 396px;
+    display: block;
+    position: absolute;
+    top: 84px;
+    left: 6%;
   }
 }

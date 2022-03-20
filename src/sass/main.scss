@@ -10,8 +10,6 @@
 @import './components/products';
 @import './components/st-container';
 @import './base/common';
-@import './layout/st-header';
-@import './layout/st-hero';
 @import './components/st-icon';
 @import './components/st-hamburger';
 @import './components/st-logo';
@@ -32,6 +30,9 @@
 @import './components/socials';
 @import './components/rights';
 
+@import './layout/st-header';
+@import './layout/st-hero';
+@import './layout/st-nav';
 @import './layouts/footer';
 
 @import './components/products';
