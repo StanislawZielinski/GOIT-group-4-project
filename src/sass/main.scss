@@ -16,7 +16,7 @@
 
 @import './components/products';
 @import './components/st-container';
-// @import './base/common';
+@import './base/common';
 @import './layout/st-header';
 @import './layout/st-hero';
 
@@ -34,13 +34,11 @@
 @import './components/st-hero__description';
 @import './components/st-hero__arrow-right';
 
-@import './base/common';
+
 
 @import './base/container';
 
-// @import './base/common';
 
-@import './base/container';
 @import './base/colors';
 @import './base/fonts';
 @import './base/font-size';

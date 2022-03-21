@@ -1,3 +1,8 @@
+*
+{
+    margin: 0px;
+}
+
 .about{
     background-color: #fff5f6;
 
@@ -85,9 +90,11 @@
     }
 
     @media screen and (max-width: 767px){
-        &__milk-img {
+        &__bg-img {
             background-image: url(/images/about/milk-mobile.png);
             background-repeat: no-repeat;
+            background-position: center 92%;
+            background-size: 100%;
         }
     }
     
@@ -141,6 +148,14 @@
     }
     
     @media screen and (min-width: 1280px){
+
+        &__bg-img{
+            background-image: url(/images/about/milk-desktop.png);
+            background-repeat: no-repeat;
+            background-position: center 120%;
+            background-size: 100%;
+        }
+
         &__tittle--label {
             font-size: 30px;
             line-height: 34px;
@@ -151,11 +166,7 @@
             font-size: 58px;
             line-height: 66px;
         }
-        &__cow-and-text {
-            background-image: url(/images/about/milk-desktop.png);
-            background-repeat: no-repeat;
-            
-        }
+        
         &__description {
             &--first {
                 font-size: 16px;
