@@ -13,6 +13,9 @@
 
 @import './components/st-buttons';
 
+@import './base/common';
+@import './components/buttons';
+
 
 @import './components/products';
 @import './components/st-container';
@@ -58,6 +61,5 @@
 @import './components/advantages';
 @import './components/about';
 
-@import './base/common';
-@import './components/buttons';
+
 
