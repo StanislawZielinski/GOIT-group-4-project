@@ -1,7 +1,9 @@
 .st-hero__picture {
   position: absolute;
   top: 92px;
-  left: 27%;
+  left: 12%;
+  animation: scale-window 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+  // overflow: hidden;
 }
 .st-hero__picture-so-tasty,
 .st-hero__picture-16,
@@ -58,11 +60,15 @@
     width: 124px;
     height: 126px;
   }
+  .st-ellipse__hero {
+    top: -8%;
+  }
 }
 // DESKTOP*********
 @media screen and (min-width: 1200px) {
   .st-hero__picture {
     top: 108px;
+    left: 38%;
   }
   .st-ice-cream {
     width: 236px;
@@ -87,5 +93,8 @@
     width: 293px;
     height: 232px;
     top: 433px;
+  }
+  .st-ellipse__hero {
+    top: -10%;
   }
 }
