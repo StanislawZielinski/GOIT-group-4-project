@@ -10,7 +10,7 @@
 
 @import './components/products';
 @import './components/st-container';
-// @import './base/common';
+
 
 @import './components/buttons';
 
@@ -28,7 +28,7 @@
 @import './components/st-logo';
 @import './components/st-box-button';
 @import './components/st-hero__picture';
-@import './components/st-buttons';
+
 @import './components/st-buy-button';
 @import './components/st-logo-header';
 @import './components/st-hero__description';
@@ -56,3 +56,5 @@
 @import './components/gallery';
 @import './components/advantages';
 @import './components/about';
+@import './base/common';
+@import './components/st-buttons';

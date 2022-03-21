@@ -199,18 +199,19 @@
     }
 }
 
-.main-button
+.rg-main-button
 {
     &:hover,
   &:focus,
   &:active {
     background: #ECEBEB;
-    color: #fff;
+    color: #d41443;
     & svg,
     & svg,
     & svg {
-      stroke: #fff;
+      stroke: #d41443;
     }
   }
+  margin: 0 auto 0px;
 }
 
