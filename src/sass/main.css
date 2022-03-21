@@ -2968,6 +2968,7 @@ button {
 
 @media screen and (min-width: 1280px) {
   .about__bg-img {
+    background-image: url(/images/about/milk-desktop.png);
     background-repeat: no-repeat;
     background-position: center 120%;
     background-size: 100%;
