@@ -259,6 +259,12 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .st-container {
+    max-width: 100%;
+  }
+}
+
 html,
 body,
 div,
@@ -722,6 +728,12 @@ button {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .st-container {
+    max-width: 100%;
+  }
+}
+
 .st-header .st-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -972,7 +984,7 @@ button {
 .st-hero__picture {
   position: absolute;
   top: 92px;
-  left: 27%;
+  left: 12%;
 }
 
 .st-hero__picture-so-tasty,
@@ -1091,6 +1103,7 @@ button {
   font-weight: 700;
   font-size: 16px;
   color: #d41342;
+  z-index: 2;
 }
 
 .st-button svg {

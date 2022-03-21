@@ -11,3 +11,8 @@
     padding: 0 34px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .st-container {
+    max-width: 100%;
+  }
+}
