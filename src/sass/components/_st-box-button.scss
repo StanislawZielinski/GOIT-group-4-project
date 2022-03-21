@@ -1,5 +1,4 @@
 .st-box-button {
-  z-index: 2;
   display: flex;
   gap: 8px;
 }
@@ -7,5 +6,10 @@
 @media screen and (min-width: 768px) {
   .st-box-button {
     gap: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .st-box-button {
+    margin-bottom: 56px;
   }
 }

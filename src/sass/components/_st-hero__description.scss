@@ -8,3 +8,18 @@
     align-items: center;
   }
 }
+
+.st-hero__descritpion--text {
+  color: $white;
+  font-family: var($secondary-font-family);
+  font-size: 8px;
+  line-height: 1.5;
+  max-width: 114px;
+}
+// DESKTOP*********
+@media screen and (min-width: 1200px) {
+  .st-hero__descritpion--text {
+    font-size: 14px;
+    max-width: 200px;
+  }
+}

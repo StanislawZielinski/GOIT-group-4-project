@@ -12,7 +12,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(16px / 21);
   color: #d41342;
   & svg {
     margin-left: 8px;
@@ -27,6 +26,7 @@
     & svg,
     & svg {
       stroke: #fff;
+      fill: #fff;
     }
   }
 }
@@ -38,7 +38,6 @@
   border-style: none;
   box-sizing: border-box;
   padding: 7px 15px;
-  // height: 24px;
   border-radius: 20px;
   cursor: pointer;
   background: #ffffff;
@@ -58,5 +57,10 @@
     & svg {
       stroke: #fff;
     }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .st-small-button {
+    font-size: 14px;
   }
 }
