@@ -2133,6 +2133,12 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0;
     background-color: #fff;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5.3%, rgba(0, 0, 0, 0)), color-stop(5.3%, #fff5f6));
@@ -2144,7 +2150,7 @@ button {
   .section-contacts__card {
     margin: 0 50px;
     padding: 0 20px;
-    max-width: 100%;
+    max-width: 220px;
     height: 427px;
     background: #ffffff;
     -webkit-box-shadow: 0px 8px 30px 0px #d414431a;
@@ -2218,14 +2224,16 @@ button {
     line-height: 186%;
     letter-spacing: 0.04em;
     color: #000000;
+    padding-top: 25px;
   }
   .branch__description {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: calc(12px / 18);
+    line-height: 1.5;
     color: #907e82;
+    padding-top: 10px;
   }
   .branch__description:after {
     content: '';
@@ -2264,7 +2272,7 @@ button {
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 186%;
     color: #907e82;
     text-decoration: none;
@@ -2297,7 +2305,7 @@ button {
   }
   .section-contacts__card {
     margin: 0 10px;
-    width: 220px;
+    max-width: 220px;
     height: 544px;
     background: #fff;
     -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
@@ -2492,6 +2500,11 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .branch__category {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
   .branch__category--cafe {
     border-radius: 4px;
     height: 28px;
@@ -2621,6 +2634,9 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
   }
   .contacts-buttons .main-button {
     margin: 86px 15px 0 0;
