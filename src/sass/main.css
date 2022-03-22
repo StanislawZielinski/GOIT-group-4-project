@@ -316,51 +316,6 @@ button {
   }
 }
 
-.button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 161.45px;
-  height: 44px;
-  border-radius: 22px;
-  cursor: pointer;
-  background: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(16px / 21);
-  color: #d41342;
-}
-
-.button svg {
-  margin-left: 8px;
-  stroke: #d41342;
-}
-
-.button:hover, .button:focus, .button:active {
-  background: #d41342;
-  color: #fff;
-}
-
-.button:hover svg,
-.button:hover svg,
-.button:hover svg, .button:focus svg,
-.button:focus svg,
-.button:focus svg, .button:active svg,
-.button:active svg,
-.button:active svg {
-  stroke: #fff;
-}
-
 .main-button {
   margin: 0 auto 10px;
   display: -webkit-box;
@@ -379,32 +334,46 @@ button {
   height: 44px;
   border-radius: 22px;
   cursor: pointer;
-  background: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(16px / 21);
   color: #d41342;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-.main-button svg {
-  margin-left: 8px;
-  stroke: #d41342;
-}
-
-.main-button:hover, .main-button:focus, .main-button:active {
+.main-button--red {
   background: #d41342;
   color: #fff;
 }
 
-.main-button:hover svg,
-.main-button:hover svg,
-.main-button:hover svg, .main-button:focus svg,
-.main-button:focus svg,
-.main-button:focus svg, .main-button:active svg,
-.main-button:active svg,
-.main-button:active svg {
+.main-button--red svg {
+  margin-left: 8px;
   stroke: #fff;
+}
+
+.main-button--red:hover, .main-button--red:focus, .main-button--red:active {
+  background: #c7133e;
+  color: #fff;
+}
+
+.main-button--white {
+  background: #fff;
+  color: #d41342;
+}
+
+.main-button--white svg {
+  margin-left: 8px;
+  stroke: #d41342;
+}
+
+.main-button--white:hover, .main-button--white:focus, .main-button--white:active {
+  background: #ecebeb;
+  color: #d41342;
+}
+
+.main-button--white:hover svg, .main-button--white:focus svg, .main-button--white:active svg {
+  stroke: #d41342;
 }
 
 .st-container {
