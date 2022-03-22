@@ -13,19 +13,39 @@
   }
 
   .review {
+    margin-top: 29px;
+    margin-bottom: 30px;
     display: flex;
     background-color: #fafafa;
     height: 308px;
+    justify-content: center;
+    align-items: center;
     &__text {
       font-family: $secondary-font-family;
       font-weight: 500;
       font-style: normal;
       font-size: 12px;
+      width: 157px;
       justify-content: center;
       align-items: center;
+      line-height: 31px;
+      text-decoration: underline;
+      // border-bottom: 1px #e1e1e1;
     }
   }
   .red-dot {
     padding-right: 10px;
+  }
+
+  .review-name {
+    padding-top: 18px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+
+    color: #000000;
   }
 }
