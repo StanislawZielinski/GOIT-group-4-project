@@ -4,6 +4,8 @@
   .section-contacts {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     background-color: #fff;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 5.3%, #fff5f6 5.3%);
@@ -13,7 +15,7 @@
     &__card {
       margin: 0 50px;
       padding: 0 20px;
-      max-width: 100%;
+      max-width: 220px;
       height: 427px;
       background: #ffffff;
       box-shadow: 0px 8px 30px 0px #d414431a;
@@ -70,14 +72,16 @@
       line-height: 186%;
       letter-spacing: 0.04em;
       color: #000000;
+      padding-top: 25px;
     }
     &__description {
       font-family: 'DM Sans';
       font-style: normal;
       font-weight: 500;
       font-size: 12px;
-      line-height: calc(12px / 18);
+      line-height: 1.5;
       color: #907e82;
+      padding-top: 10px;
       &:after {
         content: '';
         display: inline-block;
@@ -116,7 +120,7 @@
         font-family: "DM Sans";
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 186%;
         color: #907e82;
         text-decoration: none;
@@ -148,7 +152,7 @@
     }
     &__card {
       margin: 0 10px;
-      width: 220px;
+      max-width: 220px;
       height: 544px;
       background: #fff;
       box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
@@ -292,7 +296,6 @@
     justify-content: center;
     padding: 0;
     background-color: #fff;
-
     background-image: url('../images/contacts/contacts-bg.png'),
       linear-gradient(to bottom, rgba(0, 0, 0, 0) 14.5%, #fff5f6 14.5%);
     background-position: center;
@@ -316,6 +319,7 @@
     justify-content: center;
     flex-direction: column;
     &__category {
+      flex: 1;
       &--cafe {
         border-radius: 4px;
         height: 28px;
@@ -435,6 +439,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 100%;
     & .main-button {
       margin: 86px 15px 0 0;
       width: 198px;
