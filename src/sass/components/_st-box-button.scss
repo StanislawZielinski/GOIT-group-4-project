@@ -1,0 +1,15 @@
+.st-box-button {
+  display: flex;
+  gap: 8px;
+}
+// TABLET*********
+@media screen and (min-width: 768px) {
+  .st-box-button {
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .st-box-button {
+    margin-bottom: 56px;
+  }
+}

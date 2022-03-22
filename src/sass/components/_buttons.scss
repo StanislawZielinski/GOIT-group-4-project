@@ -1,0 +1,49 @@
+.main-button {
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  box-sizing: border-box;
+  width: 161.45px;
+  height: 44px;
+  border-radius: 22px;
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #d41342;
+  transition: all 0.5s ease;
+  &--red {
+    background: #d41342;
+    color: #fff;
+    & svg {
+      margin-left: 8px;
+      stroke: #fff;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      background: #c7133e;
+      color: #fff;
+    }
+  }
+  &--white {
+    background: #fff;
+    color: #d41342;
+    & svg {
+      margin-left: 8px;
+      stroke: #d41342;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      background: #ecebeb;
+      color: #d41342;
+      & svg {
+        stroke: #d41342;
+      }
+    }
+  }
+}
