@@ -286,6 +286,7 @@ button {
   cursor: pointer;
   background: #ffffff;
   font-size: 8px;
+  font-family: 'DM Sans';
   line-height: 1.3;
   color: #d41342;
 }
@@ -783,7 +784,7 @@ button {
 
 .st-hero__descritpion--text {
   color: #fff;
-  font-family: var("DM Sans");
+  font-family: "DM Sans";
   font-size: 8px;
   line-height: 1.5;
   max-width: 114px;
@@ -998,7 +999,6 @@ button {
             justify-content: flex-end;
     font-family: "DM Sans";
     font-weight: 700;
-    font-style: bold;
     font-size: 13px;
   }
   .footer__phone-number {
@@ -1040,7 +1040,6 @@ button {
   .footer__text1 {
     width: 340px;
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
@@ -1050,7 +1049,6 @@ button {
   .footer__text2 {
     width: 220px;
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
@@ -1090,7 +1088,6 @@ button {
   }
   .footer__text1 {
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 34px;
@@ -1099,7 +1096,6 @@ button {
   }
   .footer__text2 {
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 58px;
     line-height: 66px;
@@ -1134,7 +1130,7 @@ button {
     color: #d41443;
     font-size: 34px;
     padding-top: 15px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
     line-height: 38.93px;
     margin-bottom: 144px;
   }
@@ -1153,7 +1149,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 22px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-item-description {
     display: block;
@@ -1164,7 +1160,7 @@ button {
     font-size: 14px;
     padding-left: 40px;
     padding-right: 40px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-link {
     display: block;
@@ -1216,7 +1212,7 @@ button {
     font-size: 48px;
     padding-top: 15px;
     padding-bottom: 31px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
     line-height: 38.93px;
   }
   .products__list {
@@ -1239,7 +1235,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 30px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-item-description {
     display: block;
@@ -1250,7 +1246,7 @@ button {
     font-size: 14px;
     padding-left: 11px;
     padding-right: 11px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-link {
     display: block;
@@ -1304,7 +1300,7 @@ button {
     font-size: 58px;
     padding-top: 15px;
     padding-bottom: 259px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
     line-height: 38.93px;
   }
   .products__list {
@@ -1328,7 +1324,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 30px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-item-description {
     display: block;
@@ -1339,7 +1335,7 @@ button {
     font-size: 14px;
     padding-left: 44px;
     padding-right: 44px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-link {
     display: block;
@@ -2595,168 +2591,4 @@ button {
     margin-left: 5px;
   }
 }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background: #fff5f6;
-    background-position: center top;
-  }
-  .footer__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 79px 0 43px 0;
-  }
-  .footer__text1 {
-    width: 222px;
-    font-family: "Titan One";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #ffa5ba;
-    margin-bottom: 17px;
-  }
-  .footer__text2 {
-    width: 200px;
-    font-family: "Titan One";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34px;
-    line-height: 39px;
-    color: #d41342;
-    margin-bottom: 14px;
-  }
-  .footer__phone {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    font-family: "DM Sans";
-    font-weight: 700;
-    font-size: 13px;
-  }
-  .footer__phone-number {
-    margin-left: 4px;
-    color: #d41342;
-  }
-  .footer__line {
-    height: 0px;
-    width: 100%;
-    border: 1px solid #e1e1e1;
-    margin: 43px 0 22px 0;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background: #fff5f6;
-    background-position: center top;
-  }
-  .footer__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 50%;
-    margin: 165px 0 91px 0;
-  }
-  .footer__text1 {
-    width: 340px;
-    font-family: "Titan One";
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 30px;
-    color: #ffa5ba;
-    margin-bottom: 17px;
-  }
-  .footer__text2 {
-    width: 220px;
-    font-family: "Titan One";
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 55px;
-    color: #d41342;
-    margin-bottom: 5px;
-  }
-  .footer__line {
-    height: 0px;
-    width: 100%;
-    border: 1px solid #e1e1e1;
-  }
-}
-
-@media screen and (min-width: 1201px) {
-  .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background: #fff5f6;
-    background-position: center top;
-  }
-  .footer__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 50%;
-    margin: 165px 0 97px 0;
-  }
-  .footer__text1 {
-    font-family: "Titan One";
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 34px;
-    color: #ffa5ba;
-    margin-bottom: 17px;
-  }
-  .footer__text2 {
-    font-family: "Titan One";
-    font-weight: 400;
-    font-size: 58px;
-    line-height: 66px;
-    color: #d41342;
-    margin-bottom: 5px;
-  }
-  .footer__line {
-    height: 0px;
-    width: 100%;
-    border: 1px solid #e1e1e1;
-  }
-}
-
 /*# sourceMappingURL=main.css.map */
