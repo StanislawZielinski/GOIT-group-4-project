@@ -1,7 +1,37 @@
-*
-{
-    margin: 0px;
-}
+.rg-main-button {
+    margin: 0 auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    box-sizing: border-box;
+    width: 161.45px;
+    height: 44px;
+    border-radius: 22px;
+    cursor: pointer;
+    background: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(16px / 21);
+    color: #d41342;
+    margin-left: 10px;
+    & svg {
+      margin-left: 8px;
+      stroke: #d41342;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      background: #ECEBEB;
+      color: #d41342;
+      & svg,
+      & svg,
+      & svg {
+        stroke: #d41342;
+      }
+    }
+  }
 
 .about{
     background-color: #fff5f6;
@@ -89,6 +119,14 @@
         
     }
 
+    @media screen and (max-width: 767px)
+    {
+        .rg-main-button
+        {
+            margin-left: 50px;
+        }
+    }
+
     @media screen and (max-width: 767px){
         &__bg-img {
             background-image: url(/images/about/milk-mobile.png);
@@ -136,8 +174,8 @@
                 padding-bottom: 62px;
             }
         }
-        &__btn {
-            margin-left: 0;
+        .rg-main-button {
+            margin-left: -10px;
         }
         
         &__cow-img {
@@ -154,6 +192,10 @@
             background-repeat: no-repeat;
             background-position: center 120%;
             background-size: 100%;
+        }
+        .rg-main-button
+        {
+            margin-left: -10px;
         }
 
         &__tittle--label {
@@ -216,6 +258,7 @@
     font-size: 16px;
     line-height: calc(16px / 21);
     color: #d41342;
+    margin-left: 10px;
     & svg {
       margin-left: 8px;
       stroke: #d41342;
