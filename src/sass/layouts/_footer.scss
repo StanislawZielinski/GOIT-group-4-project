@@ -8,12 +8,12 @@
 
     &__text {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       margin: 79px 0 43px 0;
     }
 
     &__text1 {
-      width: 80%;
+      width: 222px;
       font-family: $font2;
       font-style: normal;
       font-weight: 400;
@@ -74,7 +74,7 @@
     }
 
     &__text1 {
-      width: 90%;
+      width: 340px;
       font-family: $font2;
       font-style: normal;
       font-weight: 400;
