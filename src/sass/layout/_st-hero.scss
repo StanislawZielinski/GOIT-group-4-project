@@ -1,0 +1,79 @@
+.st-hero {
+  padding-top: 6px;
+  width: 100vw;
+  height: 502px;
+  background-color: $pink-bg-color;
+
+  &__title {
+    z-index: 1;
+    width: 218px;
+    font-family: $primary-font-family;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 26px;
+    line-height: 1.154;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin-bottom: 19px;
+
+    &-accent {
+      color: $primary-font-color;
+      font-size: 48px;
+    }
+  }
+}
+
+.st-hero__box {
+  margin-top: 137px;
+  position: relative;
+  z-index: 1;
+}
+// TABLET*********
+@media screen and (min-width: 768px) {
+  .st-hero {
+    padding-top: 37px;
+    height: 399px;
+    padding-bottom: 28px;
+
+    &__title {
+      margin-bottom: 0;
+      width: 162px;
+      margin-bottom: 0px;
+      font-size: 22px;
+
+      &-accent {
+        font-size: 34px;
+      }
+    }
+  }
+
+  .st-hero__box {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 267px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .st-hero {
+    height: 665px;
+    padding-bottom: 45px;
+
+    &__title {
+      width: 277px;
+      margin-bottom: 25px;
+      font-size: 38px;
+
+      &-accent {
+        font-size: 58px;
+      }
+    }
+  }
+  .st-hero__box {
+    display: block;
+    position: absolute;
+    margin-top: 84px;
+    left: 6%;
+  }
+}

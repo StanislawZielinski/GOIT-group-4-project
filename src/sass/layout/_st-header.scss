@@ -1,0 +1,14 @@
+.st-header {
+  & .st-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .st-header {
+    & .st-container {
+      width: 100%;
+    }
+  }
+}
