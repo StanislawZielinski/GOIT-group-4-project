@@ -5,6 +5,10 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 
+@import './base/kd-common';
+@import './base/kd-container';
+
+
 @import './utils/variables';
 @import './utils/st-keyframes';
 
@@ -40,6 +44,7 @@
 
 
 @import './base/kd-container';
+
 
 
 @import './base/colors';

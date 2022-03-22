@@ -2,7 +2,7 @@
   .footer__rights {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;
     margin-bottom: 25px;
     &-text {
       font-family: $font1;
