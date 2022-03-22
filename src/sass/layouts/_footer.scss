@@ -41,7 +41,6 @@
     justify-content: flex-end;
     font-family: $font1;
     font-weight: 700;
-    font-style: bold;
     font-size: $size5;
 
     &-number {
@@ -76,7 +75,6 @@
     &__text1 {
       width: 340px;
       font-family: $font2;
-      font-style: normal;
       font-weight: 400;
       font-size: $size7;
       line-height: 30px;
@@ -87,7 +85,6 @@
     &__text2 {
       width: 220px;
       font-family: $font2;
-      font-style: normal;
       font-weight: 400;
       font-size: $size8;
       line-height: 55px;
@@ -120,7 +117,6 @@
 
     &__text1 {
       font-family: $font2;
-      font-style: normal;
       font-weight: 400;
       font-size: $size9;
       line-height: 34px;
@@ -130,7 +126,6 @@
 
     &__text2 {
       font-family: $font2;
-      font-style: normal;
       font-weight: 400;
       font-size: $size10;
       line-height: 66px;
