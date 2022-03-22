@@ -1810,9 +1810,9 @@ button {
     display: none;
   }
   .section-contacts__card {
-    margin: 0 50px;
+    margin: 0 auto;
     padding: 0 20px;
-    max-width: 100%;
+    width: 220px;
     height: 427px;
     background: #ffffff;
     -webkit-box-shadow: 0px 8px 30px 0px #d414431a;
@@ -1886,6 +1886,7 @@ button {
     line-height: 186%;
     letter-spacing: 0.04em;
     color: #000000;
+    padding: 25px 0 10px 0;
   }
   .branch__description {
     font-family: 'DM Sans';
@@ -1928,7 +1929,7 @@ button {
     padding: 0;
     margin: 0;
   }
-  .branch__contact li {
+  .branch__contact li a {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -2266,7 +2267,7 @@ button {
     padding: 0;
     margin: 0 43px;
   }
-  .branch__contact li {
+  .branch__contact li a {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;

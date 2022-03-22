@@ -9,9 +9,9 @@
       display: none;
     }
     &__card {
-      margin: 0 50px;
+      margin: 0 auto;
       padding: 0 20px;
-      max-width: 100%;
+      width: 220px;
       height: 427px;
       background: #ffffff;
       box-shadow: 0px 8px 30px 0px #d414431a;
@@ -68,6 +68,7 @@
       line-height: 186%;
       letter-spacing: 0.04em;
       color: #000000;
+      padding: 25px 0 10px 0;
     }
     &__description {
       font-family: 'DM Sans';
@@ -109,7 +110,7 @@
       list-style: none;
       padding: 0;
       margin: 0;
-      & li {
+      & li a {
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
@@ -245,8 +246,7 @@
       list-style: none;
       padding: 0;
       margin: 0 31px;
-      & li {
-        & a {
+      & li a {
           font-family: 'DM Sans';
           font-style: normal;
           font-weight: 500;
@@ -254,7 +254,6 @@
           line-height: 186%;
           color: #907e82;
           text-decoration: none;
-        }
       }
     }
   }
@@ -401,7 +400,7 @@
       list-style: none;
       padding: 0;
       margin: 0 43px;
-      & li {
+      & li a {
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 500;
