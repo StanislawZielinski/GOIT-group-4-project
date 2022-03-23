@@ -23,16 +23,21 @@
     color: #d41443;
     font-size: 34px;
     padding-top: 15px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 38.93px;
     margin-bottom: 144px;
   }
 
   .products__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     list-style: none;
 
     &-item {
       height: 485px;
+      width: 280px;
       border: 1px hidden;
       border-radius: 24px;
       margin-bottom: 17px;
@@ -43,7 +48,7 @@
       font-weight: 400;
       font-size: 20px;
       padding-top: 22px;
-      letter-spacing: .04em;
+      letter-spacing: 0.04em;
     }
     &-item-description {
       display: block;
@@ -54,7 +59,7 @@
       font-size: 14px;
       padding-left: 40px;
       padding-right: 40px;
-      letter-spacing: .04em;
+      letter-spacing: 0.04em;
     }
     &-link {
       display: block;
@@ -101,6 +106,13 @@
     padding: 0 34px;
     text-align: center;
   }
+
+  .empty-div-for-slawek {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 127px;
+  }
+
   .products__title {
     font-family: $primary-font-family;
     color: #ffa5ba;
@@ -113,21 +125,24 @@
     color: #d41443;
     font-size: 48px;
     padding-top: 15px;
-    padding-bottom: 31px;
-    letter-spacing: .04em;
+    padding-bottom: 150px;
+    letter-spacing: 0.04em;
     line-height: 38.93px;
   }
   .products__list {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     &-item {
       height: 485px;
+      width: 220px;
       border: 1px hidden;
       border-radius: 24px;
     }
     &-item:not(:last-child) {
-      margin-right: 11px;
+      margin-right: 29px;
     }
     &-item-name {
       font-family: $primary-font-family;
@@ -135,7 +150,7 @@
       font-weight: 400;
       font-size: 20px;
       padding-top: 30px;
-      letter-spacing: .04em;
+      letter-spacing: 0.04em;
     }
     &-item-description {
       display: block;
@@ -146,7 +161,7 @@
       font-size: 14px;
       padding-left: 11px;
       padding-right: 11px;
-      letter-spacing: .04em;
+      letter-spacing: 0.04em;
     }
     &-link {
       display: block;
@@ -210,15 +225,18 @@
     font-size: 58px;
     padding-top: 15px;
     padding-bottom: 259px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 38.93px;
   }
   .products__list {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     &-item {
       height: 525px;
+      width: 329px;
       border: 1px hidden;
       border-radius: 24px;
       margin-bottom: 119px;
@@ -232,7 +250,7 @@
       font-weight: 400;
       font-size: 20px;
       padding-top: 30px;
-      letter-spacing: .04em;
+      letter-spacing: 0.04em;
     }
     &-item-description {
       display: block;
@@ -243,7 +261,7 @@
       font-size: 14px;
       padding-left: 44px;
       padding-right: 44px;
-      letter-spacing: .04em;
+      letter-spacing: 0.04em;
     }
     &-link {
       display: block;

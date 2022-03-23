@@ -1138,15 +1138,29 @@ button {
     color: #d41443;
     font-size: 34px;
     padding-top: 15px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 38.93px;
     margin-bottom: 144px;
   }
   .products__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     list-style: none;
   }
   .products__list-item {
     height: 485px;
+    width: 280px;
     border: 1px hidden;
     border-radius: 24px;
     margin-bottom: 17px;
@@ -1157,7 +1171,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 22px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
   }
   .products__list-item-description {
     display: block;
@@ -1168,7 +1182,7 @@ button {
     font-size: 14px;
     padding-left: 40px;
     padding-right: 40px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
   }
   .products__list-link {
     display: block;
@@ -1208,6 +1222,11 @@ button {
     padding: 0 34px;
     text-align: center;
   }
+  .empty-div-for-slawek {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 127px;
+  }
   .products__title {
     font-family: "Titan One";
     color: #ffa5ba;
@@ -1219,8 +1238,8 @@ button {
     color: #d41443;
     font-size: 48px;
     padding-top: 15px;
-    padding-bottom: 31px;
-    letter-spacing: .04em;
+    padding-bottom: 150px;
+    letter-spacing: 0.04em;
     line-height: 38.93px;
   }
   .products__list {
@@ -1228,14 +1247,21 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .products__list-item {
     height: 485px;
+    width: 220px;
     border: 1px hidden;
     border-radius: 24px;
   }
   .products__list-item:not(:last-child) {
-    margin-right: 11px;
+    margin-right: 29px;
   }
   .products__list-item-name {
     font-family: "Titan One";
@@ -1243,7 +1269,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 30px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
   }
   .products__list-item-description {
     display: block;
@@ -1254,7 +1280,7 @@ button {
     font-size: 14px;
     padding-left: 11px;
     padding-right: 11px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
   }
   .products__list-link {
     display: block;
@@ -1308,7 +1334,7 @@ button {
     font-size: 58px;
     padding-top: 15px;
     padding-bottom: 259px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 38.93px;
   }
   .products__list {
@@ -1316,9 +1342,16 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .products__list-item {
     height: 525px;
+    width: 329px;
     border: 1px hidden;
     border-radius: 24px;
     margin-bottom: 119px;
@@ -1332,7 +1365,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 30px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
   }
   .products__list-item-description {
     display: block;
@@ -1343,7 +1376,7 @@ button {
     font-size: 14px;
     padding-left: 44px;
     padding-right: 44px;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
   }
   .products__list-link {
     display: block;
@@ -1793,10 +1826,170 @@ button {
     padding-top: 18px;
     font-family: 'DM Sans';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500 medium;
     font-size: 14px;
     line-height: 26px;
     color: #000000;
+  }
+  .review__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 86px;
+  }
+  .review__menu-item {
+    padding-right: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .reviews {
+    padding: 0 74px;
+    text-align: center;
+  }
+  .reviewer-picture {
+    display: block;
+    width: 85px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .review {
+    margin-top: 19px;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fafafa;
+    height: 164px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .review__text {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    width: 460px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 31px;
+    text-decoration: underline;
+  }
+  .red-dot {
+    padding-right: 10px;
+  }
+  .review-name {
+    padding-top: 14px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500 medium;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .review__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 86px;
+  }
+  .review__menu-item {
+    padding-right: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .reviews {
+    padding: 0 176px;
+    text-align: center;
+  }
+  .reviewer-picture {
+    display: block;
+    width: 85px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .review {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fafafa;
+    height: 138px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .review__text {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    width: 750px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 31px;
+    text-decoration: underline;
+  }
+  .red-dot {
+    padding-right: 10px;
+  }
+  .review-name {
+    padding-top: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500 medium;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .review__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 86px;
+  }
+  .review__menu-item {
+    padding-right: 18px;
   }
 }
 
