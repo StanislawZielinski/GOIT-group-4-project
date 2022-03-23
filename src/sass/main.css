@@ -414,7 +414,7 @@ button {
 
 .st-hero {
   padding-top: 6px;
-  width: 100vw;
+  max-width: 100%;
   height: 502px;
   background-color: #ffb8ca;
 }
@@ -839,7 +839,7 @@ button {
 
 .st-hero {
   padding-top: 6px;
-  width: 100vw;
+  max-width: 100%;
   height: 502px;
   background-color: #ffb8ca;
 }
