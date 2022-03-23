@@ -1463,7 +1463,7 @@ button {
   text-align: center;
 }
 
-.about__tittle--label {
+.about__tittle--p {
   color: #ffa5ba;
   font-family: 'Titan One', cursive;
   font-style: normal;
@@ -1527,7 +1527,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .about__tittle--label {
+  .about__tittle--p {
     font-size: 26px;
     line-height: 30px;
     padding-top: 130px;
@@ -1583,7 +1583,7 @@ button {
   .about .rg-main-button {
     margin-left: -10px;
   }
-  .about__tittle--label {
+  .about__tittle--p {
     font-size: 30px;
     line-height: 34px;
     padding-top: 125px;
@@ -1597,14 +1597,14 @@ button {
     line-height: 28.16px;
     letter-spacing: 0.04em;
     padding-top: 106px;
-    padding-right: 107px;
+    padding-right: 87px;
     padding-bottom: 35px;
   }
   .about__description--second {
     font-size: 14px;
     letter-spacing: 0.04em;
-    line-height: 28.16px;
-    padding-right: 107px;
+    line-height: 27px;
+    padding-right: 106px;
   }
   .about__description--third {
     font-size: 14px;
@@ -1674,12 +1674,12 @@ button {
   }
   .advantages__item--title {
     font-size: 48px;
-    line-height: 54.96px;
+    line-height: 55px;
     padding-top: 36px;
   }
   .advantages__item--description {
     font-size: 14px;
-    line-height: 24.36px;
+    line-height: 24px;
     padding-top: 10px;
     padding-right: 60px;
   }
@@ -1695,12 +1695,12 @@ button {
   }
   .advantages__item--title {
     font-size: 58px;
-    line-height: 66.41px;
+    line-height: 66px;
     padding-top: 40px;
   }
   .advantages__item--description {
     font-size: 16px;
-    line-height: 28.16px;
+    line-height: 28px;
     padding-top: 15px;
     padding-right: 100px;
   }
@@ -1765,12 +1765,6 @@ button {
             justify-content: center;
     max-width: 100%;
   }
-}
-
-.wrapper {
-  max-width: 1280px;
-  margin-inline: auto;
-  padding-inline: 20px;
 }
 
 .is-hidden {
