@@ -1,0 +1,24 @@
+.st-icon-Burger {
+  width: 20px;
+  height: 12px;
+}
+.st-icon-ellipse-mobile {
+  width: 346px;
+  height: 344px;
+}
+
+// TABLET********
+@media screen and (min-width: 768px) {
+  .st-icon-ellipse {
+    width: 324px;
+    height: 322px;
+  }
+}
+
+// DESKTOP********
+@media screen and (min-width: 1200px) {
+  .st-icon-ellipse {
+    width: 538px;
+    height: 538px;
+  }
+}
