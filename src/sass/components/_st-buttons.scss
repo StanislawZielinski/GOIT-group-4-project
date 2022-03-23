@@ -20,14 +20,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: #d41342;
-    color: #fff;
-    & svg,
-    & svg,
-    & svg {
-      stroke: #fff;
-      fill: #fff;
-    }
+    background: rgba(236, 235, 235, 1);
   }
   z-index: 2;
 }
@@ -52,14 +45,25 @@
   &:hover,
   &:focus,
   &:active {
-    background: #d41342;
-    color: #fff;
-    & svg,
-    & svg,
-    & svg {
-      stroke: #fff;
-    }
+    background: rgba(236, 235, 235, 1);
   }
+}
+.st-small-button--accent {
+  background-color: #d41342;
+  color: white;
+  &:hover,
+  &:focus,
+  &:active {
+    background: rgba(199, 19, 62, 1);
+  }
+}
+.st-small-button-link {
+  font-size: 8px;
+  font-family: 'DM Sans';
+  color: #ffffff;
+}
+.st-small-button-link--accent {
+  color: rgba(212, 20, 67, 1);
 }
 @media screen and (min-width: 1200px) {
   .st-small-button {
