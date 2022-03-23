@@ -253,19 +253,8 @@ button {
 }
 
 .st-button:hover, .st-button:focus, .st-button:active {
-  background: #d41342;
-  color: #fff;
-}
-
-.st-button:hover svg,
-.st-button:hover svg,
-.st-button:hover svg, .st-button:focus svg,
-.st-button:focus svg,
-.st-button:focus svg, .st-button:active svg,
-.st-button:active svg,
-.st-button:active svg {
-  stroke: #fff;
-  fill: #fff;
+  background: #ecebeb;
+  outline: none;
 }
 
 .st-small-button {
@@ -296,18 +285,27 @@ button {
 }
 
 .st-small-button:hover, .st-small-button:focus, .st-small-button:active {
-  background: #d41342;
-  color: #fff;
+  background: #ecebeb;
+  outline: none;
 }
 
-.st-small-button:hover svg,
-.st-small-button:hover svg,
-.st-small-button:hover svg, .st-small-button:focus svg,
-.st-small-button:focus svg,
-.st-small-button:focus svg, .st-small-button:active svg,
-.st-small-button:active svg,
-.st-small-button:active svg {
-  stroke: #fff;
+.st-small-button--accent {
+  background-color: #d41342;
+  color: white;
+}
+
+.st-small-button--accent:hover, .st-small-button--accent:focus, .st-small-button--accent:active {
+  background: #c7133e;
+}
+
+.st-small-button-link {
+  font-size: 8px;
+  font-family: 'DM Sans';
+  color: #ffffff;
+}
+
+.st-small-button-link--accent {
+  color: #d41443;
 }
 
 @media screen and (min-width: 1200px) {
