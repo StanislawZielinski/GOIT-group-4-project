@@ -2543,6 +2543,8 @@ button {
   }
   .footer__socials-item:hover {
     color: #d41342;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .socials__icon {
     fill: #ffffff;
@@ -2623,6 +2625,8 @@ button {
   }
   .footer__socials-item:hover {
     background-color: #d41342;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .socials__icon {
     fill: #ffffff;
@@ -2701,6 +2705,8 @@ button {
   }
   .footer__socials-item:hover {
     background-color: #d41342;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .socials__icon {
     fill: #ffffff;
