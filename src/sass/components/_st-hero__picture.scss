@@ -1,9 +1,8 @@
 .st-hero__picture {
   position: absolute;
   top: 92px;
-  left: 12%;
+  right: 55%;
   animation: scale-window 2000ms cubic-bezier(0.4, 0, 0.2, 1);
-  // overflow: hidden;
 }
 .st-hero__picture-so-tasty,
 .st-hero__picture-16,
@@ -20,6 +19,12 @@
   position: absolute;
   top: -5%;
   left: 0%;
+  display: none;
+}
+.st-ellipse__hero-mobile {
+  position: absolute;
+  top: -5%;
+  // left: 100%;
 }
 // TABLET*********
 @media screen and (min-width: 768px) {
@@ -62,6 +67,10 @@
   }
   .st-ellipse__hero {
     top: -8%;
+    display: block;
+  }
+  .st-ellipse__hero-mobile {
+    display: none;
   }
 }
 // DESKTOP*********

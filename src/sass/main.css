@@ -500,20 +500,20 @@ button {
   height: 12px;
 }
 
-.st-icon-Ellipse {
+.st-icon-ellipse-mobile {
   width: 346px;
   height: 344px;
 }
 
 @media screen and (min-width: 768px) {
-  .st-icon-Ellipse {
+  .st-icon-ellipse {
     width: 324px;
     height: 322px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .st-icon-Ellipse {
+  .st-icon-ellipse {
     width: 538px;
     height: 538px;
   }
@@ -644,7 +644,7 @@ button {
 .st-hero__picture {
   position: absolute;
   top: 92px;
-  left: 12%;
+  right: 55%;
   -webkit-animation: scale-window 2000ms cubic-bezier(0.4, 0, 0.2, 1);
           animation: scale-window 2000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -666,6 +666,12 @@ button {
   position: absolute;
   top: -5%;
   left: 0%;
+  display: none;
+}
+
+.st-ellipse__hero-mobile {
+  position: absolute;
+  top: -5%;
 }
 
 @media screen and (min-width: 768px) {
@@ -707,6 +713,10 @@ button {
   }
   .st-ellipse__hero {
     top: -8%;
+    display: block;
+  }
+  .st-ellipse__hero-mobile {
+    display: none;
   }
 }
 
