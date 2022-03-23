@@ -254,6 +254,7 @@ button {
 
 .st-button:hover, .st-button:focus, .st-button:active {
   background: #ecebeb;
+  outline: none;
 }
 
 .st-small-button {
@@ -285,6 +286,7 @@ button {
 
 .st-small-button:hover, .st-small-button:focus, .st-small-button:active {
   background: #ecebeb;
+  outline: none;
 }
 
 .st-small-button--accent {

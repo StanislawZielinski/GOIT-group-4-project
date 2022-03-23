@@ -21,6 +21,7 @@
   &:focus,
   &:active {
     background: rgba(236, 235, 235, 1);
+    outline: none;
   }
   z-index: 2;
 }
@@ -46,6 +47,7 @@
   &:focus,
   &:active {
     background: rgba(236, 235, 235, 1);
+    outline: none;
   }
 }
 .st-small-button--accent {
