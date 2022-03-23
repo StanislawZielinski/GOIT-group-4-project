@@ -1,0 +1,300 @@
+// MOBILKA
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .products {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .empty-div-for-slawek {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 121px;
+  }
+
+  .products__title {
+    font-family: $primary-font-family;
+    color: #ffa5ba;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .products__header {
+    font-family: $primary-font-family;
+    color: #d41443;
+    font-size: 34px;
+    padding-top: 15px;
+    letter-spacing: 0.04em;
+    line-height: 38.93px;
+    margin-bottom: 144px;
+  }
+
+  .products__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+    &-item {
+      height: 485px;
+      width: 280px;
+      border: 1px hidden;
+      border-radius: 24px;
+      margin-bottom: 17px;
+    }
+    &-item-name {
+      font-family: $primary-font-family;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 20px;
+      padding-top: 22px;
+      letter-spacing: 0.04em;
+    }
+    &-item-description {
+      display: block;
+      font-family: $secondary-font-family;
+      color: #ffffff;
+      font-weight: 700;
+      text-align: center;
+      font-size: 14px;
+      padding-left: 40px;
+      padding-right: 40px;
+      letter-spacing: 0.04em;
+    }
+    &-link {
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 41px;
+    }
+  }
+
+  .ice-cream {
+    background-color: #ffb8ca;
+    margin-bottom: 130px;
+  }
+
+  .ice-coffee {
+    background-color: #f0d1a5;
+    margin-bottom: 130px;
+  }
+
+  .milk-shake {
+    background-color: #c2e297;
+    margin-bottom: 98px;
+  }
+
+  .ice-cream-image,
+  .ice-coffee-image,
+  .milk-shake-image {
+    top: 0px;
+    left: 0px;
+    height: 249px;
+    width: 252px;
+    margin-top: -100px;
+  }
+
+  .white-dot {
+    width: 6px;
+    height: 6px;
+    margin: 30px 0px;
+  }
+}
+
+// TABLET
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .products {
+    padding: 0 34px;
+    text-align: center;
+  }
+
+  .empty-div-for-slawek {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 127px;
+  }
+
+  .products__title {
+    font-family: $primary-font-family;
+    color: #ffa5ba;
+    font-weight: 400;
+    font-size: 26px;
+  }
+
+  .products__header {
+    font-family: $primary-font-family;
+    color: #d41443;
+    font-size: 48px;
+    padding-top: 15px;
+    padding-bottom: 150px;
+    letter-spacing: 0.04em;
+    line-height: 38.93px;
+  }
+  .products__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-item {
+      height: 485px;
+      width: 220px;
+      border: 1px hidden;
+      border-radius: 24px;
+    }
+    &-item:not(:last-child) {
+      margin-right: 29px;
+    }
+    &-item-name {
+      font-family: $primary-font-family;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 20px;
+      padding-top: 30px;
+      letter-spacing: 0.04em;
+    }
+    &-item-description {
+      display: block;
+      font-family: $secondary-font-family;
+      color: #ffffff;
+      font-weight: 700;
+      text-align: center;
+      font-size: 14px;
+      padding-left: 11px;
+      padding-right: 11px;
+      letter-spacing: 0.04em;
+    }
+    &-link {
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 41px;
+    }
+  }
+
+  .ice-cream {
+    background-color: #ffb8ca;
+  }
+
+  .ice-coffee {
+    background-color: #f0d1a5;
+  }
+
+  .milk-shake {
+    background-color: #c2e297;
+  }
+
+  .ice-cream-image,
+  .ice-coffee-image,
+  .milk-shake-image {
+    bottom: 0px;
+    left: 0px;
+    height: 249px;
+    width: 252px;
+    margin-top: -120px;
+  }
+
+  .white-dot {
+    width: 6px;
+    height: 6px;
+    margin: 30px 0px;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 1200px) {
+  .products {
+    padding: 0 116px;
+    text-align: center;
+  }
+
+  .empty-div-for-slawek {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 121px;
+  }
+
+  .products__title {
+    font-family: $primary-font-family;
+    color: #ffa5ba;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .products__header {
+    font-family: $primary-font-family;
+    color: #d41443;
+    font-size: 58px;
+    padding-top: 15px;
+    padding-bottom: 259px;
+    letter-spacing: 0.04em;
+    line-height: 38.93px;
+  }
+  .products__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-item {
+      height: 525px;
+      width: 329px;
+      border: 1px hidden;
+      border-radius: 24px;
+      margin-bottom: 119px;
+    }
+    &-item:not(:last-child) {
+      margin-right: 29px;
+    }
+    &-item-name {
+      font-family: $primary-font-family;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 20px;
+      padding-top: 30px;
+      letter-spacing: 0.04em;
+    }
+    &-item-description {
+      display: block;
+      font-family: $secondary-font-family;
+      color: #ffffff;
+      font-weight: 700;
+      text-align: center;
+      font-size: 14px;
+      padding-left: 44px;
+      padding-right: 44px;
+      letter-spacing: 0.04em;
+    }
+    &-link {
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 41px;
+    }
+  }
+
+  .ice-cream {
+    background-color: #ffb8ca;
+  }
+
+  .ice-coffee {
+    background-color: #f0d1a5;
+  }
+
+  .milk-shake {
+    background-color: #c2e297;
+  }
+
+  .ice-cream-image,
+  .ice-coffee-image,
+  .milk-shake-image {
+    top: 0px;
+    left: 0px;
+    height: 249px;
+    width: 252px;
+    margin-top: -150px;
+  }
+
+  .white-dot {
+    width: 6px;
+    height: 6px;
+    margin: 30px 0px;
+  }
+}

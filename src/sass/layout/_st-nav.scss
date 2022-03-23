@@ -1,0 +1,26 @@
+.st-nav {
+  display: none;
+}
+.st-nav__list {
+  display: flex;
+  width: 541px;
+  justify-content: space-between;
+}
+.st-nav__link {
+  font-family: $secondary-font-family;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: $white;
+  &:focus,
+  &:hover {
+    color: $primary-font-color;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .st-nav {
+    display: block;
+    z-index: 2;
+  }
+}

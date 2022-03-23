@@ -4,13 +4,43 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
+
 @import './base/kd-common';
 @import './base/kd-container';
+
+@import './utils/variables';
+@import './utils/st-keyframes';
+
+@import './components/st-container';
+
+@import './components/st-buttons';
+@import './components/buttons';
+
+@import './components/st-container';
+@import './layout/st-header';
+@import './layout/st-hero';
+@import './components/st-icon';
+@import './components/st-hamburger';
+@import './components/modal_menu';
+@import './components/st-logo';
+@import './components/st-box-button';
+@import './components/st-hero__picture';
+@import './components/st-buy-button';
+@import './components/st-logo-header';
+@import './components/st-hero__description';
+@import './components/st-hero__arrow-right';
 @import './base/colors';
 @import './base/fonts';
 @import './base/font-size';
-
+@import './layout/st-header';
+@import './layout/st-hero';
+@import './layout/st-nav';
+@import './layouts/footer';
+@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/gallery';
+@import './components/reviews';
+@import './components/contacts';
 @import './components/socials';
 @import './components/rights';
-
-@import './layouts/footer';
