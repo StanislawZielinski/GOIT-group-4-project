@@ -3,7 +3,6 @@
  * Główny plik dla stylów.
  * Wszystkie partials podłączamy tutaj.
  */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 html,
 body,
 div,
@@ -287,6 +286,7 @@ button {
   cursor: pointer;
   background: #ffffff;
   font-size: 8px;
+  font-family: 'DM Sans';
   line-height: 1.3;
   color: #d41342;
 }
@@ -316,51 +316,6 @@ button {
   }
 }
 
-.button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 161.45px;
-  height: 44px;
-  border-radius: 22px;
-  cursor: pointer;
-  background: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(16px / 21);
-  color: #d41342;
-}
-
-.button svg {
-  margin-left: 8px;
-  stroke: #d41342;
-}
-
-.button:hover, .button:focus, .button:active {
-  background: #d41342;
-  color: #fff;
-}
-
-.button:hover svg,
-.button:hover svg,
-.button:hover svg, .button:focus svg,
-.button:focus svg,
-.button:focus svg, .button:active svg,
-.button:active svg,
-.button:active svg {
-  stroke: #fff;
-}
-
 .main-button {
   margin: 0 auto 10px;
   display: -webkit-box;
@@ -379,32 +334,46 @@ button {
   height: 44px;
   border-radius: 22px;
   cursor: pointer;
-  background: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(16px / 21);
   color: #d41342;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-.main-button svg {
-  margin-left: 8px;
-  stroke: #d41342;
-}
-
-.main-button:hover, .main-button:focus, .main-button:active {
+.main-button--red {
   background: #d41342;
   color: #fff;
 }
 
-.main-button:hover svg,
-.main-button:hover svg,
-.main-button:hover svg, .main-button:focus svg,
-.main-button:focus svg,
-.main-button:focus svg, .main-button:active svg,
-.main-button:active svg,
-.main-button:active svg {
+.main-button--red svg {
+  margin-left: 8px;
   stroke: #fff;
+}
+
+.main-button--red:hover, .main-button--red:focus, .main-button--red:active {
+  background: #c7133e;
+  color: #fff;
+}
+
+.main-button--white {
+  background: #fff;
+  color: #d41342;
+}
+
+.main-button--white svg {
+  margin-left: 8px;
+  stroke: #d41342;
+}
+
+.main-button--white:hover, .main-button--white:focus, .main-button--white:active {
+  background: #ecebeb;
+  color: #d41342;
+}
+
+.main-button--white:hover svg, .main-button--white:focus svg, .main-button--white:active svg {
+  stroke: #d41342;
 }
 
 .st-container {
@@ -815,7 +784,7 @@ button {
 
 .st-hero__descritpion--text {
   color: #fff;
-  font-family: var("DM Sans");
+  font-family: "DM Sans";
   font-size: 8px;
   line-height: 1.5;
   max-width: 114px;
@@ -1030,7 +999,6 @@ button {
             justify-content: flex-end;
     font-family: "DM Sans";
     font-weight: 700;
-    font-style: bold;
     font-size: 13px;
   }
   .footer__phone-number {
@@ -1072,7 +1040,6 @@ button {
   .footer__text1 {
     width: 340px;
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 30px;
@@ -1082,7 +1049,6 @@ button {
   .footer__text2 {
     width: 220px;
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
@@ -1122,7 +1088,6 @@ button {
   }
   .footer__text1 {
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 34px;
@@ -1131,7 +1096,6 @@ button {
   }
   .footer__text2 {
     font-family: "Titan One";
-    font-style: normal;
     font-weight: 400;
     font-size: 58px;
     line-height: 66px;
@@ -1150,6 +1114,11 @@ button {
     padding: 0 20px;
     text-align: center;
   }
+  .empty-div-for-slawek {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 121px;
+  }
   .products__title {
     font-family: "Titan One";
     color: #ffa5ba;
@@ -1161,9 +1130,9 @@ button {
     color: #d41443;
     font-size: 34px;
     padding-top: 15px;
-    padding-bottom: 31px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
     line-height: 38.93px;
+    margin-bottom: 144px;
   }
   .products__list {
     list-style: none;
@@ -1180,7 +1149,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 22px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-item-description {
     display: block;
@@ -1191,7 +1160,7 @@ button {
     font-size: 14px;
     padding-left: 40px;
     padding-right: 40px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-link {
     display: block;
@@ -1200,12 +1169,15 @@ button {
   }
   .ice-cream {
     background-color: #ffb8ca;
+    margin-bottom: 130px;
   }
   .ice-coffee {
     background-color: #f0d1a5;
+    margin-bottom: 130px;
   }
   .milk-shake {
     background-color: #c2e297;
+    margin-bottom: 98px;
   }
   .ice-cream-image,
   .ice-coffee-image,
@@ -1214,6 +1186,7 @@ button {
     left: 0px;
     height: 249px;
     width: 252px;
+    margin-top: -100px;
   }
   .white-dot {
     width: 6px;
@@ -1239,7 +1212,7 @@ button {
     font-size: 48px;
     padding-top: 15px;
     padding-bottom: 31px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
     line-height: 38.93px;
   }
   .products__list {
@@ -1262,7 +1235,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 30px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-item-description {
     display: block;
@@ -1273,7 +1246,7 @@ button {
     font-size: 14px;
     padding-left: 11px;
     padding-right: 11px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-link {
     display: block;
@@ -1296,6 +1269,7 @@ button {
     left: 0px;
     height: 249px;
     width: 252px;
+    margin-top: -120px;
   }
   .white-dot {
     width: 6px;
@@ -1309,6 +1283,11 @@ button {
     padding: 0 116px;
     text-align: center;
   }
+  .empty-div-for-slawek {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 121px;
+  }
   .products__title {
     font-family: "Titan One";
     color: #ffa5ba;
@@ -1320,8 +1299,8 @@ button {
     color: #d41443;
     font-size: 58px;
     padding-top: 15px;
-    padding-bottom: 31px;
-    letter-spacing: 4%;
+    padding-bottom: 259px;
+    letter-spacing: .04em;
     line-height: 38.93px;
   }
   .products__list {
@@ -1334,6 +1313,7 @@ button {
     height: 525px;
     border: 1px hidden;
     border-radius: 24px;
+    margin-bottom: 119px;
   }
   .products__list-item:not(:last-child) {
     margin-right: 29px;
@@ -1344,7 +1324,7 @@ button {
     font-weight: 400;
     font-size: 20px;
     padding-top: 30px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-item-description {
     display: block;
@@ -1355,7 +1335,7 @@ button {
     font-size: 14px;
     padding-left: 44px;
     padding-right: 44px;
-    letter-spacing: 4%;
+    letter-spacing: .04em;
   }
   .products__list-link {
     display: block;
@@ -1378,6 +1358,7 @@ button {
     left: 0px;
     height: 249px;
     width: 252px;
+    margin-top: -150px;
   }
   .white-dot {
     width: 6px;
@@ -1768,17 +1749,13 @@ button {
     margin-right: auto;
   }
   .review {
+    margin-top: 29px;
+    margin-bottom: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     background-color: #fafafa;
     height: 308px;
-  }
-  .review__text {
-    font-family: "DM Sans";
-    font-weight: 500;
-    font-style: normal;
-    font-size: 12px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1786,8 +1763,32 @@ button {
         -ms-flex-align: center;
             align-items: center;
   }
+  .review__text {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    width: 157px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 31px;
+    text-decoration: underline;
+  }
   .red-dot {
     padding-right: 10px;
+  }
+  .review-name {
+    padding-top: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
   }
 }
 
@@ -1800,12 +1801,6 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 0;
     background-color: #fff;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5.3%, rgba(0, 0, 0, 0)), color-stop(5.3%, #fff5f6));
@@ -1815,9 +1810,9 @@ button {
     display: none;
   }
   .section-contacts__card {
-    margin: 0 50px;
+    margin: 0 auto;
     padding: 0 20px;
-    max-width: 220px;
+    width: 220px;
     height: 427px;
     background: #ffffff;
     -webkit-box-shadow: 0px 8px 30px 0px #d414431a;
@@ -1891,7 +1886,7 @@ button {
     line-height: 186%;
     letter-spacing: 0.04em;
     color: #000000;
-    padding-top: 25px;
+    padding: 25px 0 10px 0;
   }
   .branch__description {
     font-family: 'DM Sans';
@@ -1900,7 +1895,6 @@ button {
     font-size: 12px;
     line-height: 1.5;
     color: #907e82;
-    padding-top: 10px;
   }
   .branch__description:after {
     content: '';
@@ -1936,13 +1930,12 @@ button {
     margin: 0;
   }
   .branch__contact li a {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 186%;
+    line-height: 150%;
     color: #907e82;
-    text-decoration: none;
   }
   .opening__days {
     color: #000000;
@@ -1972,7 +1965,7 @@ button {
   }
   .section-contacts__card {
     margin: 0 10px;
-    max-width: 220px;
+    width: 220px;
     height: 544px;
     background: #fff;
     -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
@@ -1990,6 +1983,11 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .branch__category {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .branch__category--cafe {
     border-radius: 4px;
@@ -2092,7 +2090,7 @@ button {
     margin: 0 31px;
   }
   .branch__contact li a {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -2166,11 +2164,6 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .branch__category {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
   }
   .branch__category--cafe {
     border-radius: 4px;
@@ -2275,13 +2268,12 @@ button {
     margin: 0 43px;
   }
   .branch__contact li a {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 186%;
     color: #907e82;
-    text-decoration: none;
   }
   .opening__days {
     color: #000000;
@@ -2382,7 +2374,6 @@ button {
           justify-content: flex-end;
   font-family: "DM Sans";
   font-weight: 700;
-  font-style: bold;
   font-size: 13px;
 }
 
@@ -2461,7 +2452,6 @@ button {
     width: 100%;
     font-family: "DM Sans";
     font-weight: 700;
-    font-style: bold;
     font-size: 14px;
   }
   .footer__phone-number {
@@ -2540,7 +2530,6 @@ button {
     width: 100%;
     font-family: "DM Sans";
     font-weight: 700;
-    font-style: bold;
     font-size: 16px;
   }
   .footer__phone-number {
@@ -2563,7 +2552,6 @@ button {
   }
   .footer__rights-text {
     font-family: "DM Sans";
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 152%;
@@ -2580,7 +2568,6 @@ button {
   }
   .footer__rights-text {
     font-family: "DM Sans";
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 152%;
@@ -2598,7 +2585,6 @@ button {
   }
   .footer__rights-text {
     font-family: "DM Sans";
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 186%;
